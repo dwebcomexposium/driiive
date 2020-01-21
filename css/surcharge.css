@@ -1,31 +1,34 @@
+@charset "utf-8";
+/* CSS Document */
+
 @charset "UTF-8";
 
 /* Dependencies */
 
 @font-face {
    font-family: 'insiders-sansumi';
-   src: url("/theme/milipol_insiders_git_desktop/fonts/sansumi-demibold-webfont.woff2") format("woff2"), url("/theme/milipol_insiders_git_desktop/fonts/sansumi-demibold-webfont.woff") format("woff");
+   src: url("/theme/visionvo_git_desktop/fonts/sansumi-demibold-webfont.woff2") format("woff2"), url("/theme/visionvo_git_desktop/fonts/sansumi-demibold-webfont.woff") format("woff");
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'insiders-montserrat-light';
-   src: url("/theme/milipol_insiders_git_desktop/fonts/montserrat-light.woff");
+   src: url("/theme/visionvo_git_desktop/fonts/montserrat-light.woff");
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'insiders-montserrat-regular';
-   src: url("/theme/milipol_insiders_git_desktop/fonts/montserrat-medium.woff");
+   src: url("/theme/visionvo_git_desktop/fonts/montserrat-medium.woff");
    font-weight: normal;
    font-style: normal;
 }
 
 @font-face {
    font-family: 'insiders-montserrat-bold';
-   src: url("/theme/milipol_insiders_git_desktop/fonts/montserrat-bold.woff");
+   src: url("/theme/visionvo_git_desktop/fonts/montserrat-bold.woff");
    font-weight: normal;
    font-style: normal;
 }
@@ -406,7 +409,7 @@ p {
 }
 
 .article-content blockquote p:first-child::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/icon-quote.svg");
+   content: url("/theme/visionvo_git_desktop/img/icon-quote.svg");
    display: block;
    opacity: 0.2;
    margin-bottom: 1rem;
@@ -505,7 +508,7 @@ custom[name="factbox"] p,
 custom[name="factbox"] a.externe {
    background: #050924;
    background-color: #151832;
-   background-image: url(/theme/milipol_insiders_git_desktop/img/pattern.png);
+   background-image: url(/theme/visionvo_git_desktop/img/pattern.png);
    background-position: top 1px left;
 }
 
@@ -524,7 +527,7 @@ custom[name="factbox"] h2 {
 }
 
 custom[name="factbox"] h2::before {
-   content: url(/theme/milipol_insiders_git_desktop/img/icon-interro.svg);
+   content: url(/theme/visionvo_git_desktop/img/icon-interro.svg);
    position: absolute;
    left: 80px;
    top: 52px;
@@ -633,7 +636,7 @@ custom[name="factbox"] a.externe:hover {
 }
 
 .sr-noresult-item ul li::before {
-   content: url(/theme/milipol_insiders_git_desktop/img/arrow-orange.svg);
+   content: url(/theme/visionvo_git_desktop/img/arrow-orange.svg);
    margin-right: 1.7rem;
    background: transparent;
    -webkit-transform: inherit;
@@ -889,7 +892,7 @@ p.style3 .pdf:after,
 p.style3 .zip:after,
 p.style4 .pdf:after,
 p.style4 .zip:after {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-orange.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-orange.svg");
    margin-left: 1rem;
 }
 
@@ -1486,7 +1489,7 @@ body.error404 p {
 
 header header.site-banner .global-search-form .icon.icon-search::before {
    content: "";
-   background-image: url(/theme/milipol_insiders_git_desktop/img/icon-search.svg);
+   background-image: url(/theme/visionvo_git_desktop/img/icon-search.svg);
    background-repeat: no-repeat;
    background-position: center;
    background-size: 2.4rem;
@@ -1529,7 +1532,7 @@ header header.site-banner .global-search-form .icon.icon-search::before {
 }
 
 .mn-menu-item.mn-item-lvl-1.mn-item-has-submenu.is-open .mn-menu-submenu.mn-menu-lvl2.unstyled li a::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-orange.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-orange.svg");
    margin-right: 0.8rem;
 }
 
@@ -1732,7 +1735,7 @@ header.site-banner .global-search-form .icon.icon-search {
 
 header.site-banner .global-search-form .icon.icon-search::before {
    content: "";
-   background-image: url("/theme/milipol_insiders_git_desktop/img/icon-search.svg");
+   background-image: url("/theme/visionvo_git_desktop/img/icon-search.svg");
    background-repeat: no-repeat;
    background-position: center;
    background-size: 2.4rem;
@@ -1858,7 +1861,7 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a a.mn-link {
 
 header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a::before {
    content: '';
-   background-image: url("/theme/milipol_insiders_git_desktop/img/logo-insiders.svg");
+   background-image: url("/theme/visionvo_git_desktop/img/logo-insiders.svg");
    position: absolute;
    width: 224px;
    background-size: 224px;
@@ -1941,7 +1944,7 @@ header.site-banner .not-logged .widget-text .openCapMobile a {
 
 header.site-banner .logged .widget-text .openCapMobile i::before,
 header.site-banner .not-logged .widget-text .openCapMobile i::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/account.svg") !important;
+   content: url("/theme/visionvo_git_desktop/img/account.svg") !important;
 }
 
 header.site-banner .logged .widget-text a,
@@ -1961,7 +1964,7 @@ header.site-banner .not-logged .widget-my-selection a {
 
 header.site-banner .logged .widget-my-selection a .cap-icon-shopping_basket::before,
 header.site-banner .not-logged .widget-my-selection a .cap-icon-shopping_basket::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/shop.svg") !important;
+   content: url("/theme/visionvo_git_desktop/img/shop.svg") !important;
 }
 
 header.site-banner .logged .widget-my-selection .number,
@@ -2022,7 +2025,7 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a {
 @media screen and (max-width: 1024px) {
    header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a::before {
       content: '';
-      background-image: url(/theme/milipol_insiders_git_desktop/img/logo-mobile.svg);
+      background-image: url(/theme/visionvo_git_desktop/img/logo-mobile.svg);
    }
 }
 
@@ -2304,11 +2307,11 @@ header.site-banner .linkid758169 a:hover {
 }
 
 .previous_btn {
-   content: url(/theme/milipol_insiders_git_desktop/img/arrow-testimonial-left.svg);
+   content: url(/theme/visionvo_git_desktop/img/arrow-testimonial-left.svg);
 }
 
 .next_btn {
-   content: url(/theme/milipol_insiders_git_desktop/img/arrow-testimonial-right.svg);
+   content: url(/theme/visionvo_git_desktop/img/arrow-testimonial-right.svg);
 }
 
 .slide_buttons {
@@ -2341,7 +2344,7 @@ header.site-banner .linkid758169 a:hover {
        transform: translateX(-50%) !important;
    padding: 13rem 0 17.5rem 0;
    background-color: #151832;
-   background-image: url(/theme/milipol_insiders_git_desktop/img/pattern.png);
+   background-image: url(/theme/visionvo_git_desktop/img/pattern.png);
    background-position: top 1px left;
    position: relative;
 }
@@ -2524,7 +2527,7 @@ header.site-banner .linkid758169 a:hover {
    padding: 3rem;
    background: #050924;
    background-color: #151832;
-   background-image: url(/theme/milipol_insiders_git_desktop/img/pattern.png);
+   background-image: url(/theme/visionvo_git_desktop/img/pattern.png);
    background-position: top 1px left;
 }
 
@@ -2546,7 +2549,7 @@ header.site-banner .linkid758169 a:hover {
    padding: 3rem;
    background: #050924;
    background-color: #151832;
-   background-image: url(/theme/milipol_insiders_git_desktop/img/pattern.png);
+   background-image: url(/theme/visionvo_git_desktop/img/pattern.png);
    background-position: top 1px left;
    border-bottom: 4px solid #E38500;
    max-width: 460px;
@@ -2582,7 +2585,7 @@ header.site-banner .linkid758169 a:hover {
 }
 
 #btn-scroll-top::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-top-header.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-top-header.svg");
 }
 
 .site-footer .newsletter-form .nf-main-content .nf-form-input {
@@ -2710,7 +2713,7 @@ a.externe.lien2 {
 }
 
 .article-content ul li>ul li::before {
-   content: url(/theme/milipol_insiders_git_desktop/img/arrow-gris.svg) !important;
+   content: url(/theme/visionvo_git_desktop/img/arrow-gris.svg) !important;
 }
 
 .article-navigation .inside ul li a img {
@@ -2749,7 +2752,7 @@ a.externe.lien2 {
 }
 
 .test-menu-res::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/burger-menu.svg");
+   content: url("/theme/visionvo_git_desktop/img/burger-menu.svg");
 }
 
 .test-menu-res::before .test-menu-res--active {
@@ -2853,7 +2856,7 @@ strong {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-header.jpg");
+   background-image: url("/theme/visionvo_git_desktop/img/background-header.jpg");
    background-size: cover;
 }
 
@@ -2937,7 +2940,7 @@ strong {
 }
 
 .article-content ul li::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-orange.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-orange.svg");
    margin-right: 1.7rem;
    background: transparent;
    -webkit-transform: inherit;
@@ -3331,7 +3334,7 @@ body.contact .contacts-list .inside>h1::after {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-header.jpg");
+   background-image: url("/theme/visionvo_git_desktop/img/background-header.jpg");
    background-size: cover;
 }
 
@@ -3416,7 +3419,7 @@ body.faq .faq-main-title::after {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-header.jpg");
+   background-image: url("/theme/visionvo_git_desktop/img/background-header.jpg");
    background-size: cover;
 }
 
@@ -3445,7 +3448,7 @@ body.faq .faq-summary {
 }
 
 .front .article-focus.landing {
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-homepage.jpg");
+   background-image: url("/theme/visionvo_git_desktop/img/background-homepage.jpg");
    background-size: cover;
    background-position: 0 55%;
    border: none;
@@ -3578,7 +3581,7 @@ body.faq .faq-summary {
 }
 
 .front .insiders-intro-wrap {
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-home-intro.jpg");
+   background-image: url("/theme/visionvo_git_desktop/img/background-home-intro.jpg");
    background-position: center;
    background-size: cover;
    padding-bottom: 9rem;
@@ -3811,7 +3814,7 @@ body.faq .faq-summary {
 }
 
 .front .insiders-intro a.lien2::after {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-orange.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-orange.svg");
    padding-left: 1rem;
    line-height: 5px !important;
 }
@@ -3871,15 +3874,15 @@ body.faq .faq-summary {
 }
 
 .front .insiders-advantages .la-item:nth-child(1) .la-item-title::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/icon-business.svg");
+   content: url("/theme/visionvo_git_desktop/img/icon-business.svg");
 }
 
 .front .insiders-advantages .la-item:nth-child(2) .la-item-title::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/icon-network.svg");
+   content: url("/theme/visionvo_git_desktop/img/icon-network.svg");
 }
 
 .front .insiders-advantages .la-item:nth-child(3) .la-item-title::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/icon-thinktank.svg");
+   content: url("/theme/visionvo_git_desktop/img/icon-thinktank.svg");
 }
 
 .front .insiders-advantages .la-item:last-child {
@@ -4227,7 +4230,7 @@ body.faq .faq-summary {
 }
 
 .front .become-insider li::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/check-green.svg");
+   content: url("/theme/visionvo_git_desktop/img/check-green.svg");
 }
 
 .front .become-insider img {
@@ -4266,7 +4269,7 @@ body.faq .faq-summary {
 }
 
 .front .become-insider .lien2::after {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-green.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-green.svg");
    padding-left: 1rem;
    line-height: 5px !important;
 }
@@ -4340,7 +4343,7 @@ body.faq .faq-summary {
 }
 
 .front .become-partners li::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/check-blue.svg");
+   content: url("/theme/visionvo_git_desktop/img/check-blue.svg");
 }
 
 .front .become-partners img {
@@ -4373,13 +4376,13 @@ body.faq .faq-summary {
 }
 
 .front .become-partners .lien2::after {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-blue.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-blue.svg");
    padding-left: 1rem;
    line-height: 5px !important;
 }
 
 .front .insiders-speakers-wrap {
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-home-speaker.jpg");
+   background-image: url("/theme/visionvo_git_desktop/img/background-home-speaker.jpg");
    background-position: center;
    background-size: cover;
    padding: 11rem 0 10rem 0;
@@ -4756,7 +4759,7 @@ body.faq .faq-summary {
    background: #050924;
    padding: 12rem 0;
    background-color: #151832;
-   background-image: url("/theme/milipol_insiders_git_desktop/img/pattern.png");
+   background-image: url("/theme/visionvo_git_desktop/img/pattern.png");
    background-position: top 1px left;
 }
 
@@ -4957,7 +4960,7 @@ body.faq .faq-summary {
 }
 
 .front .list-articles:not(.insiders-advantages) .la-item-btn a.link-read-more::after {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-orange.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-orange.svg");
    padding-left: 1rem;
    line-height: 5px !important;
 }
@@ -5058,7 +5061,7 @@ body.article_list .main-title-with-link::before {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-header.jpg");
+   background-image: url("/theme/visionvo_git_desktop/img/background-header.jpg");
    background-size: cover;
 }
 
@@ -5124,7 +5127,7 @@ body.article_list .cxp-pagination .pagination .pagin-next a i {
 }
 
 body.article_list .cxp-pagination .pagination .pagin-next a::after {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-orange.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-orange.svg");
    padding-left: 1rem;
 }
 
@@ -5141,7 +5144,7 @@ body.article_list .cxp-pagination .pagination .pagin-prev a i {
 }
 
 body.article_list .cxp-pagination .pagination .pagin-prev a::before {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-left.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-left.svg");
    padding-right: 1rem;
 }
 
@@ -5183,7 +5186,7 @@ body.article_list .cxp-pagination .la-item .link-read-more {
 }
 
 body.article_list .cxp-pagination .la-item .link-read-more::after {
-   content: url("/theme/milipol_insiders_git_desktop/img/arrow-orange.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-orange.svg");
    padding-left: 1rem;
 }
 
@@ -5268,7 +5271,7 @@ body.error404 .ep-intro .main-title::before {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-header.jpg");
+   background-image: url("/theme/visionvo_git_desktop/img/background-header.jpg");
    background-size: cover;
 }
 
@@ -5385,7 +5388,7 @@ body.search .box-light::before {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("/theme/milipol_insiders_git_desktop/img/background-header.jpg");
+   background-image: url("/theme/visionvo_git_desktop/img/background-header.jpg");
    background-size: cover;
 }
 
@@ -5441,7 +5444,7 @@ body.search .box-light .inside .form-txt {
    left: 0;
    top: 0;
    height: 355px;
-   background-image: url(/theme/milipol_insiders_git_desktop/img/background-header.jpg);
+   background-image: url(/theme/visionvo_git_desktop/img/background-header.jpg);
 }
 
 .content756427 #main {
@@ -5500,7 +5503,7 @@ body.search .box-light .inside .form-txt {
 }
 
 .content756427 .content-list-bullet>li:before {
-   content: url(/theme/milipol_insiders_git_desktop/img/arrow-orange.svg);
+   content: url(/theme/visionvo_git_desktop/img/arrow-orange.svg);
    padding-left: 1rem;
    -webkit-transform: inherit;
    -ms-transform: inherit;
