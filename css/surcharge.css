@@ -1843,23 +1843,23 @@ header.site-banner header.site-banner .mn-link-text {
    font-size: 0 !important;
 }
 
-header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a {
+header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a {
    position: relative;
 }
 
-header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a:hover {
+header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a:hover {
    background: inherit;
 }
 
-header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a span {
+header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a span {
    display: none;
 }
 
-header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a a.mn-link {
+header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a a.mn-link {
    background: red !important;
 }
 
-header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a::before {
+header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a::before {
    content: '';
    background-image: url("/theme/visionvo_git_desktop/img/logo-insiders.svg");
    position: absolute;
@@ -1871,7 +1871,7 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a::before {
 }
 
 @media screen and (max-width: 1024px) {
-   header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a::before {
+   header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a::before {
       display: block !important;
       width: 224px !important;
       background-size: 110px !important;
@@ -2005,12 +2005,12 @@ header.site-banner .mn-menu.mn-menu-lvl1.unstyled {
    }
 }
 
-header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 {
+header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 {
    margin-right: auto;
 }
 
 @media screen and (max-width: 1024px) {
-   header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 {
+   header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 {
       display: block;
       position: absolute;
       top: 23px;
@@ -2018,12 +2018,12 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 {
    }
 }
 
-header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a {
+header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a {
    background: transparent;
 }
 
 @media screen and (max-width: 1024px) {
-   header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-758179 a::before {
+   header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a::before {
       content: '';
       background-image: url(/theme/visionvo_git_desktop/img/logo-mobile.svg);
    }
@@ -5546,3 +5546,5 @@ iframe.ec {
     position: relative;
     display: block;
 }
+
+
