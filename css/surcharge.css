@@ -776,23 +776,6 @@ custom[name="factbox"] a.externe:hover {
            align-items: center;
 }
 
-a.lien1 {
-   transition: -webkit-transform 0.2s ease-in-out;
-   -webkit-transition: -webkit-transform 0.2s ease-in-out;
-   -o-transition: transform 0.2s ease-in-out;
-   transition: transform 0.2s ease-in-out;
-   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
-   border: 3px solid #000;
-}
-
-a.lien1:hover {
-   -webkit-transform: scale(1.04);
-   -ms-transform: scale(1.04);
-       transform: scale(1.04);
-   background: white !important;
-   border-color: none !important;
-}
-
 a.lien2::after,
 .link-read-more::after {
    content: url(/theme/visionvo_git_desktop/img/arrow-white.svg);
@@ -817,9 +800,14 @@ a.lien2:hover,
 }
 
 a.lien1 {
+   transition: -webkit-transform 0.2s ease-in-out;
+   -webkit-transition: -webkit-transform 0.2s ease-in-out;
+   -o-transition: transform 0.2s ease-in-out;
+   transition: transform 0.2s ease-in-out;
+   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
    background: white;
    text-decoration: none;
-   border: 3px solid white;
+   border: 3px solid #000;
    font-family: "futura-bold", arial, sans-serif;
    font-size: 1.2rem;
    line-height: 2.8rem;
@@ -840,6 +828,11 @@ a.lien1 {
 a.lien1:hover {
    background: white;
    border-color: white;
+   -webkit-transform: scale(1.04);
+   -ms-transform: scale(1.04);
+       transform: scale(1.04);
+   background: white !important;
+   border-color: none !important;
 }
 
 a.link-view-all,
@@ -3771,6 +3764,10 @@ body.faq .faq-summary {
    .front .insiders-intro-wrap .insiders-intro {
       padding: 5rem;
    }
+}
+
+.front .insiders-intro-wrap .insiders-intro a.lien1:hover {
+   border: 3px solid #000 !important;
 }
 
 .front .insiders-intro-wrap .insiders-intro a.lien2 {
