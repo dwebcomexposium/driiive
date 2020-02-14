@@ -920,6 +920,16 @@ p.style4 .zip:hover {
    background-color: white;
 }
 
+.focus2.txtcenter a.externe.lien2::after {
+   content: none;
+}
+
+.focus2.txtcenter a.externe.lien2:hover {
+   background: #a82321 !important;
+   border-color: #a82321 !important;
+   color: white !important;
+}
+
 @-webkit-keyframes pulsate {
    0% {
       -webkit-transform: scale(0.1, 0.1) translate(-50%, -50%);
