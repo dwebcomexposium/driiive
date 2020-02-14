@@ -933,7 +933,7 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 {
 }
 
 .front .list-articles:not(.insiders-advantages) .la-item-btn {
-   border-top: 2px solid #2E294E !important;
+   border-top: 2px solid #fff !important;
 }
 
 .front .agenda table td:first-child p {
@@ -3970,8 +3970,18 @@ body.faq .faq-summary {
 }
 
 .front .insiders-enrollment-wrap {
-   background-color: #e9e9e9;
+   background-color: #474044;
    padding: 12rem 0 14.5rem;
+}
+
+.front .insiders-enrollment-wrap p,
+.front .insiders-enrollment-wrap ul,
+.front .insiders-enrollment-wrap li {
+   color: white !important;
+}
+
+.front .insiders-enrollment-wrap img {
+   border-bottom: 4px solid #fff !important;
 }
 
 .front .insiders-enrollment-wrap a.lien1 {
@@ -3985,11 +3995,15 @@ body.faq .faq-summary {
 }
 
 .front .insiders-enrollment-wrap a.lien2 {
-   color: #000 !important;
+   color: #fff !important;
+}
+
+.front .insiders-enrollment-wrap a.lien2:hover {
+   color: white !important;
 }
 
 .front .insiders-enrollment-wrap h2 {
-   color: #000 !important;
+   color: #fff !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -4589,7 +4603,7 @@ body.faq .faq-summary {
 }
 
 .front .become-insider .lien2::after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-purple.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-white.svg");
    padding-left: 1rem;
    line-height: 5px !important;
 }
@@ -4691,7 +4705,7 @@ body.faq .faq-summary {
 }
 
 .front .become-partners .lien2::after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-purple.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-white.svg");
    padding-left: 1rem;
    line-height: 5px !important;
 }
@@ -4850,7 +4864,7 @@ body.faq .faq-summary {
 }
 
 .front .agenda table tr:nth-child(1) td:not(:first-child) {
-   background-color: #2E294E;
+   background-color: #474044;
 }
 
 .front .agenda table tr:nth-child(1) td:first-child {
@@ -4923,9 +4937,7 @@ body.faq .faq-summary {
 .front .list-articles:not(.insiders-advantages) {
    background: #050924;
    padding: 12rem 0;
-   background-color: #e9e9e9;
-   background-image: url("/theme/visionvo_git_desktop/img/pattern.png");
-   background-position: top 1px left;
+   background-color: #474044;
 }
 
 @media screen and (max-width: 768px) {
@@ -5022,11 +5034,12 @@ body.faq .faq-summary {
 
 .front .list-articles:not(.insiders-advantages) h2 {
    margin-bottom: 1rem;
+   color: #fff !important;
 }
 
 .front .list-articles:not(.insiders-advantages) h2 a {
    font-family: "graphik-bold", arial, sans-serif;
-   color: #000;
+   color: #FFF;
    font-size: 2.2rem;
    line-height: 3.1rem;
 }
@@ -5070,7 +5083,7 @@ body.faq .faq-summary {
 .front .list-articles:not(.insiders-advantages) .la-item-desc {
    font-family: "graphik-regular", arial, sans-serif;
    font-size: 1.4rem;
-   color: #BDC1D9;
+   color: #FFF !important;
    line-height: 2.6rem;
 }
 
@@ -5085,7 +5098,7 @@ body.faq .faq-summary {
    float: none;
    display: block;
    margin: 0 auto;
-   border-bottom: 4px solid #2E294E;
+   border-bottom: 4px solid #fff;
    margin-bottom: 2.5rem;
    width: 100%;
 }
@@ -5113,7 +5126,7 @@ body.faq .faq-summary {
 .front .list-articles:not(.insiders-advantages) .la-item-btn a.link-read-more {
    font-family: "graphik-bold", arial, sans-serif;
    font-size: 1.3rem;
-   color: #000;
+   color: #fff;
    letter-spacing: 0;
    text-align: right;
    text-transform: uppercase;
@@ -5122,11 +5135,11 @@ body.faq .faq-summary {
 }
 
 .front .list-articles:not(.insiders-advantages) .la-item-btn a.link-read-more:hover {
-   color: white;
+   color: white !important;
 }
 
 .front .list-articles:not(.insiders-advantages) .la-item-btn a.link-read-more::after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-purple.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-white.svg");
    padding-left: 1rem;
    line-height: 5px !important;
 }
