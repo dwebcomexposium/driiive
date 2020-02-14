@@ -864,23 +864,6 @@ a.lien4:hover {
    color: #79757e;
 }
 
-.focus2 a.lien2 {
-   color: white;
-}
-
-.focus2 a.externe {
-   color: white;
-   border-color: #931F1D;
-   background-color: #931F1D;
-   border: none !important;
-   text-decoration: none !important;
-}
-
-.focus2 a.externe:hover {
-   background: #a82321;
-   border-color: #a82321;
-}
-
 a.externe:not(.lien2,
 .lien1,
 .lien4.pdf) {
@@ -920,11 +903,25 @@ p.style4 .zip:hover {
    background-color: white;
 }
 
-.focus2.txtcenter a.externe.lien2::after {
+.focus2.txtcenter a.externe.lien2,
+.focus2.txtcenter a.lien2,
+.focus2.txtcenter a.externe {
+   color: white;
+   border-color: #931F1D;
+   background-color: #931F1D;
+   border: none !important;
+   text-decoration: none !important;
+}
+
+.focus2.txtcenter a.externe.lien2::after,
+.focus2.txtcenter a.lien2::after,
+.focus2.txtcenter a.externe::after {
    content: none;
 }
 
-.focus2.txtcenter a.externe.lien2:hover {
+.focus2.txtcenter a.externe.lien2:hover,
+.focus2.txtcenter a.lien2:hover,
+.focus2.txtcenter a.externe:hover {
    background: #a82321 !important;
    border-color: #a82321 !important;
    color: white !important;
