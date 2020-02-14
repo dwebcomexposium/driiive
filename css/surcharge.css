@@ -870,14 +870,15 @@ a.lien4:hover {
 
 .focus2 a.externe {
    color: white;
-   border-color: #2E294E;
-   background-color: #2E294E;
+   border-color: #931F1D;
+   background-color: #931F1D;
    border: none !important;
+   text-decoration: none !important;
 }
 
 .focus2 a.externe:hover {
-   background: #38325f;
-   border-color: #38325f;
+   background: #a82321;
+   border-color: #a82321;
 }
 
 a.externe:not(.lien2,
