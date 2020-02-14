@@ -621,7 +621,7 @@ custom[name="factbox"] a.externe:hover {
 }
 
 .sr-noresult-item ul li::before {
-   content: url(/theme/visionvo_git_desktop/img/arrow-purple.svg);
+   content: url(/theme/visionvo_git_desktop/img/arrow-red.svg);
    margin-right: 1.7rem;
    background: transparent;
    -webkit-transform: inherit;
@@ -885,7 +885,7 @@ p.style3 .pdf:after,
 p.style3 .zip:after,
 p.style4 .pdf:after,
 p.style4 .zip:after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-purple.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
    margin-left: 1rem;
 }
 
@@ -1643,7 +1643,7 @@ header header.site-banner .global-search-form .icon.icon-search::before {
 }
 
 .mn-menu-item.mn-item-lvl-1.mn-item-has-submenu.is-open .mn-menu-submenu.mn-menu-lvl2.unstyled li a::before {
-   content: url("/theme/visionvo_git_desktop/img/arrow-purple.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
    margin-right: 0.8rem;
 }
 
@@ -3055,7 +3055,7 @@ strong {
 }
 
 .article-content ul li::before {
-   content: url("/theme/visionvo_git_desktop/img/arrow-purple.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
    margin-right: 1.7rem;
    background: transparent;
    -webkit-transform: inherit;
@@ -3955,7 +3955,7 @@ body.faq .faq-summary {
 }
 
 .front .insiders-intro-wrap .insiders-intro a.lien2::after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-purple.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
    padding-left: 1rem;
    line-height: 5px !important;
 }
@@ -5311,7 +5311,7 @@ body.article_list .cxp-pagination .pagination .pagin-next a i {
 }
 
 body.article_list .cxp-pagination .pagination .pagin-next a::after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-purple.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
    padding-left: 1rem;
 }
 
@@ -5370,7 +5370,7 @@ body.article_list .cxp-pagination .la-item .link-read-more {
 }
 
 body.article_list .cxp-pagination .la-item .link-read-more::after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-purple.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
    padding-left: 1rem;
 }
 
@@ -5687,7 +5687,7 @@ body.search .box-light .inside .form-txt {
 }
 
 .content756427 .content-list-bullet>li:before {
-   content: url(/img/arrow-purple.svg);
+   content: url(/img/arrow-red.svg);
    padding-left: 1rem;
    -webkit-transform: inherit;
    -ms-transform: inherit;
