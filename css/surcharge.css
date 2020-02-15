@@ -691,7 +691,7 @@ custom[name="factbox"] a.externe:hover {
    content: '';
    width: 10.5rem;
    height: .4rem;
-   background: white;
+   background: #2E294E;
    position: absolute;
    left: 50%;
    -webkit-transform: translate(-50%, -50%);
