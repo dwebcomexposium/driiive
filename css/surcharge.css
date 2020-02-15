@@ -2313,6 +2313,7 @@ header.site-banner .block.block-small.quicklinks:nth-child(7) {
    -webkit-box-pack: end;
        -ms-flex-pack: end;
            justify-content: flex-end;
+   z-index: 0 !important;
 }
 
 @media screen and (max-width: 1024px) {
