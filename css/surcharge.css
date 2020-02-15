@@ -2712,7 +2712,7 @@ header.site-banner .linkid758169 a:hover {
 #btn-scroll-top {
    width: 50px;
    height: 50px;
-   background-color: #000;
+   background-color: #000 !important;
    cursor: pointer;
    position: fixed;
    right: 0;
@@ -4771,6 +4771,7 @@ body.faq .faq-summary {
            flex-direction: column;
    padding-top: 11rem !important;
    padding-bottom: 11rem !important;
+   background: #FCFCFC;
 }
 
 @media screen and (max-width: 480px) {
