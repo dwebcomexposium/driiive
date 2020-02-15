@@ -621,7 +621,7 @@ custom[name="factbox"] a.externe:hover {
 }
 
 .sr-noresult-item ul li::before {
-   content: url(/theme/visionvo_git_desktop/img/arrow-red.svg);
+   content: url(/theme/visionvo_git_desktop/img/arrow-turquoise.svg);
    margin-right: 1.7rem;
    background: transparent;
    -webkit-transform: inherit;
@@ -885,7 +885,7 @@ p.style3 .pdf:after,
 p.style3 .zip:after,
 p.style4 .pdf:after,
 p.style4 .zip:after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-turquoise.svg");
    margin-left: 1rem;
 }
 
@@ -1549,7 +1549,7 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a:hover {
 }
 
 header.site-banner .mn-menu-submenu {
-   border-top: 0.3rem solid #2E294E !important;
+   border-top: 0.3rem solid #2B8D9F !important;
 }
 
 header.site-banner .is-open .mn-link.mn-link {
@@ -1662,7 +1662,7 @@ header header.site-banner .global-search-form .icon.icon-search::before {
 }
 
 .mn-menu-item.mn-item-lvl-1.mn-item-has-submenu.is-open .mn-menu-submenu.mn-menu-lvl2.unstyled li a::before {
-   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-turquoise.svg");
    margin-right: 0.8rem;
 }
 
@@ -2324,7 +2324,7 @@ header.site-banner .block.block-small.quicklinks:nth-child(7) {
 }
 
 header.site-banner .linkid758168 a {
-   background-color: #00BDED;
+   background-color: #2B8D9F;
    font-family: "graphik-bold", arial, sans-serif;
    font-size: 1.5rem;
    padding: 1.5rem;
@@ -2359,8 +2359,8 @@ header.site-banner .linkid758168 a {
 }
 
 header.site-banner .linkid758168 a:hover {
-   background: #08cdff;
-   border-color: #08cdff;
+   background: #309fb3;
+   border-color: #309fb3;
 }
 
 header.site-banner .linkid758169 a {
@@ -3078,7 +3078,7 @@ strong {
 }
 
 .article-content ul li::before {
-   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-turquoise.svg");
    margin-right: 1.7rem;
    background: transparent;
    -webkit-transform: inherit;
@@ -3678,7 +3678,7 @@ body.faq .faq-summary {
 .front .article-focus.landing .af-title {
    font-family: "graphik-semibold", arial, sans-serif;
    font-size: 24px;
-   color: #00BDED;
+   color: #2B8D9F;
    text-align: center;
    padding-bottom: 2.5rem;
 }
@@ -3978,7 +3978,7 @@ body.faq .faq-summary {
 }
 
 .front .insiders-intro-wrap .insiders-intro a.lien2::after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-turquoise.svg");
    padding-left: 1rem;
    line-height: 5px !important;
 }
@@ -4682,8 +4682,8 @@ body.faq .faq-summary {
 }
 
 .front .become-partners .lien1 {
-   background: #00BDED;
-   border: 2px solid #00BDED;
+   background: #2B8D9F;
+   border: 2px solid #2B8D9F;
 }
 
 @media screen and (max-width: 1024px) {
@@ -4855,8 +4855,8 @@ body.faq .faq-summary {
 }
 
 .front .agenda a.externe.lien2 {
-   background: #00BDED;
-   border: 2px solid #00BDED;
+   background: #2B8D9F;
+   border: 2px solid #2B8D9F;
    padding: 1.8rem 2.8rem;
 }
 
@@ -5334,7 +5334,7 @@ body.article_list .cxp-pagination .pagination .pagin-next a i {
 }
 
 body.article_list .cxp-pagination .pagination .pagin-next a::after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-turquoise.svg");
    padding-left: 1rem;
 }
 
@@ -5393,7 +5393,7 @@ body.article_list .cxp-pagination .la-item .link-read-more {
 }
 
 body.article_list .cxp-pagination .la-item .link-read-more::after {
-   content: url("/theme/visionvo_git_desktop/img/arrow-red.svg");
+   content: url("/theme/visionvo_git_desktop/img/arrow-turquoise.svg");
    padding-left: 1rem;
 }
 
@@ -5440,6 +5440,12 @@ body.article_list .cxp-pagination .la-item .la-item-content {
       max-width: 300px;
       margin-top: 18px;
    }
+}
+
+.content822414 .article-wrapper .article-title::before {
+   background-size: 145%;
+   background-repeat: no-repeat;
+   top: 96px !important;
 }
 
 body.error404 .intro .ezxmltext-field::after {
@@ -5710,7 +5716,7 @@ body.search .box-light .inside .form-txt {
 }
 
 .content756427 .content-list-bullet>li:before {
-   content: url(/img/arrow-red.svg);
+   content: url(/img/arrow-turquoise.svg);
    padding-left: 1rem;
    -webkit-transform: inherit;
    -ms-transform: inherit;
