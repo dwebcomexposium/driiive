@@ -462,7 +462,7 @@ p {
    padding: 3rem;
    width: 100%;
    position: relative;
-   background: transparent;
+   background: #9F9AA4 !important;
 }
 
 .article-navigation .inside ul.an-list li.an-item-previous a .an-item-content i::before,
@@ -472,7 +472,7 @@ p {
 
 .article-navigation .inside ul.an-list li.an-item-previous a .an-item-content span.an-item-title,
 .article-navigation .inside ul.an-list li.an-item-next a .an-item-content span.an-item-title {
-   color: #050924;
+   color: #fff !important;
    font-size: 2rem;
    margin-bottom: 10px;
 }
