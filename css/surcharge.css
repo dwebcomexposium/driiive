@@ -967,6 +967,10 @@ header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a
    color: inherit !important;
 }
 
+.site-footer .inside>* {
+   background-color: #FCFCFC !important;
+}
+
 header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 {
    margin-right: auto !important;
 }
@@ -1469,6 +1473,7 @@ body.error404 p {
        -ms-flex-align: center;
            align-items: center;
    padding: 6rem 0 2rem 0;
+   background: #FCFCFC;
 }
 
 @media screen and (max-width: 760px) {
