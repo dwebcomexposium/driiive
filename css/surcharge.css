@@ -977,6 +977,10 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 {
    border-top: 2px solid #fff !important;
 }
 
+.list-articles .la-item-desc {
+   color: #D1D1D1 !important;
+}
+
 .front .agenda table td:first-child p {
    color: #2E294E;
 }
@@ -4002,10 +4006,13 @@ body.faq .faq-summary {
    padding: 12rem 0 14.5rem;
 }
 
-.front .insiders-enrollment-wrap p,
 .front .insiders-enrollment-wrap ul,
 .front .insiders-enrollment-wrap li {
    color: white !important;
+}
+
+.front .insiders-enrollment-wrap p {
+   color: #D1D1D1;
 }
 
 .front .insiders-enrollment-wrap img {
@@ -4214,7 +4221,7 @@ body.faq .faq-summary {
 }
 
 .front .insiders-speakers-wrap .speakers>.cl-content>.cl-item .cl-item-content .cl-item-subtitle {
-   color: #2E294E !important;
+   color: #fff !important;
    font-family: "graphik-bold", arial, sans-serif;
    text-transform: capitalize;
    font-size: 1.5rem;
@@ -4234,7 +4241,7 @@ body.faq .faq-summary {
 .front .insiders-speakers-wrap .speakers>.cl-content>.cl-item .cl-item-content .cl-item-desc {
    margin: 0;
    font-family: "graphik-semibold", arial, sans-serif;
-   color: white !important;
+   color: #D1D1D1 !important;
    font-size: 1.4rem;
 }
 
@@ -4374,6 +4381,7 @@ body.faq .faq-summary {
    font-size: 14px;
    color: #79757e;
    line-height: 24px;
+   color: #D1D1D1 !important;
 }
 
 .front .become-insider,
@@ -5111,7 +5119,7 @@ body.faq .faq-summary {
 .front .list-articles:not(.insiders-advantages) .la-item-desc {
    font-family: "graphik-regular", arial, sans-serif;
    font-size: 1.4rem;
-   color: #FFF !important;
+   color: #D1D1D1 !important;
    line-height: 2.6rem;
 }
 
