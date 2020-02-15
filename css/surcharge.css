@@ -800,11 +800,9 @@ a.lien2:hover,
 }
 
 a.lien1 {
-   transition: -webkit-transform 0.2s ease-in-out;
-   -webkit-transition: -webkit-transform 0.2s ease-in-out;
-   -o-transition: transform 0.2s ease-in-out;
-   transition: transform 0.2s ease-in-out;
-   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+   -webkit-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
    background: white;
    text-decoration: none;
    border: 3px solid #000;
@@ -2724,6 +2722,13 @@ header.site-banner .linkid758169 a:hover {
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
+   -webkit-transition: all 0.2s ease-in-out !important;
+   -o-transition: all 0.2s ease-in-out !important;
+   transition: all 0.2s ease-in-out !important;
+}
+
+#btn-scroll-top:hover {
+   background-color: #2B8D9F !important;
 }
 
 #btn-scroll-top::before {
@@ -4816,11 +4821,9 @@ body.faq .faq-summary {
    background: transparent;
    border: 2px solid #000;
    color: #000;
-   transition: -webkit-transform 0.2s ease-in-out;
-   -webkit-transition: -webkit-transform 0.2s ease-in-out;
-   -o-transition: transform 0.2s ease-in-out;
-   transition: transform 0.2s ease-in-out;
-   transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+   -webkit-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
 }
 
 .front .agenda a.lien2:hover {
