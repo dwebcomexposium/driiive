@@ -898,8 +898,8 @@ p.style4 .zip:hover {
 .focus2.txtcenter a.lien2,
 .focus2.txtcenter a.externe {
    color: white;
-   border-color: #931F1D;
-   background-color: #931F1D;
+   border-color: #2B8D9F;
+   background-color: #2B8D9F;
    border: none !important;
    text-decoration: none !important;
 }
@@ -913,8 +913,8 @@ p.style4 .zip:hover {
 .focus2.txtcenter a.externe.lien2:hover,
 .focus2.txtcenter a.lien2:hover,
 .focus2.txtcenter a.externe:hover {
-   background: #a82321 !important;
-   border-color: #a82321 !important;
+   background: #309fb3 !important;
+   border-color: #309fb3 !important;
    color: white !important;
 }
 
