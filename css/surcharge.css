@@ -181,6 +181,12 @@ html ::selection {
    background: #D1D1D1;
 }
 
+.btn-primary:focus {
+   background-color: inherit !important;
+   border-color: inherit !important;
+   outline: none !important;
+}
+
 .article-content a.externe,
 .article-content a.interne {
    text-decoration: underline !important;
