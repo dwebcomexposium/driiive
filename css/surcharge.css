@@ -339,6 +339,7 @@ p {
 
 .article-title {
    margin-top: -10rem;
+   background: #000 !important;
 }
 
 .article-title .inside {
@@ -2998,7 +2999,7 @@ strong {
 .article-wrapper .article-title {
    position: relative;
    z-index: 0;
-   background-color: #000 !important;
+   background: #000 !important;
 }
 
 .article-wrapper .article-title::before {
