@@ -4034,11 +4034,11 @@ body.faq .faq-summary {
 
 .front .insiders-enrollment-wrap ul,
 .front .insiders-enrollment-wrap li {
-   color: white !important;
+   color: #D1D1D1 !important;
 }
 
 .front .insiders-enrollment-wrap p {
-   color: #D1D1D1;
+   color: #D1D1D1 !important;
 }
 
 .front .insiders-enrollment-wrap img {
