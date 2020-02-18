@@ -181,12 +181,6 @@ html ::selection {
    background: #D1D1D1;
 }
 
-.btn-primary:focus {
-   background-color: inherit !important;
-   border-color: inherit !important;
-   outline: none !important;
-}
-
 .article-content a.externe,
 .article-content a.interne {
    text-decoration: underline !important;
@@ -2290,6 +2284,27 @@ header.site-banner .block.block-small.quicklinks:nth-child(3) ul a {
    padding: 1rem 1rem;
 }
 
+header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822444 a.btn-primary,
+header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a.btn-primary {
+   -webkit-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+
+header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822444 a.btn-primary:hover,
+header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a.btn-primary:hover {
+   color: #79757e !important;
+}
+
+header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822444 a.btn-primary:focus,
+header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822444 a.btn-primary:active,
+header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a.btn-primary:focus,
+header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a.btn-primary:active {
+   background-color: inherit !important;
+   border-color: inherit !important;
+   outline: none !important;
+}
+
 @media screen and (max-width: 1024px) {
    header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822444 {
       display: none;
@@ -2313,6 +2328,12 @@ header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822444 a
 
 header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a.btn-primary {
    color: #fff;
+}
+
+header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a.btn-primary:focus {
+   background-color: inherit !important;
+   border-color: inherit !important;
+   outline: none !important;
 }
 
 header.site-banner .block.block-small.quicklinks:nth-child(3) ul .linkid822445 a.btn-primary:hover {
