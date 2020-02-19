@@ -339,7 +339,7 @@ p {
 
 .article-title {
    margin-top: -10rem;
-   background: #000 !important;
+   background-color: inherit !important;
 }
 
 .article-title .inside {
@@ -353,7 +353,7 @@ p {
 }
 
 .article-title .inside img {
-   width: 100%;
+   width: 79rem;
    height: auto;
    -webkit-box-ordinal-group: 3;
        -ms-flex-order: 2;
@@ -3039,7 +3039,6 @@ strong {
 .article-wrapper .article-title {
    position: relative;
    z-index: 0;
-   background: #000 !important;
 }
 
 .article-wrapper .article-title::before {
@@ -5511,6 +5510,13 @@ body.article_list .cxp-pagination .la-item .la-item-content {
    top: 96px !important;
 }
 
+body.error404 .tt-dropdown-menu {
+   position: absolute !important;
+   bottom: 5.2rem !important;
+   top: inherit !important;
+   left: 36.5% !important;
+}
+
 body.error404 .intro .ezxmltext-field::after {
    display: none;
 }
@@ -5621,8 +5627,12 @@ body.error404 .intro li:last-child a:hover {
 }
 
 .gsf-submit-btn {
-   background-color: white;
+   background-color: #2B8D9F;
    min-height: 5.5rem;
+}
+
+.gsf-submit-btn:hover {
+   background-color: #309fb3 !important;
 }
 
 .gsf-fields {
