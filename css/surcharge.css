@@ -193,10 +193,6 @@ html ::selection {
    }
 }
 
-.cx-lazy-load {
-   border-bottom: 4px solid #2B8D9F;
-}
-
 @media screen and (max-width: 620px) {
    .at-main-title {
       max-width: 322px !important;
@@ -5313,6 +5309,10 @@ body.faq .faq-summary {
 
 .partner .pg-item .pg-item-title {
    display: none;
+}
+
+.list-articles .inside .cxp-pagination .la-list .la-item .cx-lazy-load {
+   border-bottom: 4px solid #2B8D9F;
 }
 
 body.article_list .main-title-with-link {
