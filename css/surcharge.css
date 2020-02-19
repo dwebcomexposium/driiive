@@ -5084,6 +5084,12 @@ body.faq .faq-summary {
    border: 0 none;
 }
 
+@media screen and (max-width: 992px) {
+   .front .list-articles:not(.insiders-advantages) .la-list article {
+      margin-right: 0;
+   }
+}
+
 .front .list-articles:not(.insiders-advantages) .la-list article:last-child {
    margin-right: 0;
 }
@@ -5205,7 +5211,7 @@ body.faq .faq-summary {
 
 @media screen and (max-width: 768px) {
    .front .list-articles:not(.insiders-advantages) .la-item-img {
-      width: 80%;
+      width: 100%;
    }
 }
 
