@@ -1861,7 +1861,7 @@ header.site-banner .global-search-form {
 
 header.site-banner .global-search-form .gsf-submit-btn {
    padding: 0 2rem;
-   background-color: white;
+   background-color: #2B8D9F !important;
 }
 
 header.site-banner .global-search-form .gsf-submit-btn:focus,
@@ -1876,9 +1876,20 @@ header.site-banner .global-search-form .gsf-fields {
 
 @media screen and (max-width: 1024px) {
    header.site-banner .global-search-form .gsf-fields {
-      position: absolute !important;
       top: 10rem;
+      margin: 6px;
       right: -40px;
+      -webkit-transform: none;
+      -ms-transform: none;
+          transform: none;
+      top: 9rem;
+      position: fixed !important;
+      left: 0;
+      background-color: #fff;
+      -webkit-box-shadow: 0 2rem 5rem -2rem rgba(0, 0, 0, 0.15);
+              box-shadow: 0 2rem 5rem -2rem rgba(0, 0, 0, 0.15);
+      top: 12rem;
+      width: 96%;
    }
 }
 
