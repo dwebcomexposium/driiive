@@ -5350,6 +5350,10 @@ body.article_list .main-title-with-link>.main-title {
    }
 }
 
+body.article_list body.article_list .cxp-pagination .la-item .cx-lazy-load {
+   border-bottom: 4px solid #2B8D9F;
+}
+
 body.article_list .cxp-pagination {
    max-width: 79rem;
    margin: 11rem auto;
