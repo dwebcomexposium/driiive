@@ -611,7 +611,7 @@ custom[name="factbox"] a.externe:hover {
 }
 
 .sr-noresult-title .sr-term {
-   color: white;
+   color: #2B8D9F;
 }
 
 .sr-noresult-item {
@@ -5664,7 +5664,7 @@ body.search .box-light::before {
 }
 
 body.search .box-light .sr-term {
-   color: white;
+   color: #2B8D9F;
 }
 
 body.search .box-light .sr-main-title {
