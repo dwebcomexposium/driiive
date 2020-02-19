@@ -1400,7 +1400,7 @@ body.error404 p {
 
 @media screen and (max-width: 425px) {
    .site-footer .footer-mentions {
-      padding-top: 5rem;
+      padding-top: 0;
       padding-bottom: 2rem;
    }
 }
@@ -1423,11 +1423,16 @@ body.error404 p {
            align-items: center;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
    .site-footer .footer-mentions .footer-brands {
       -webkit-box-align: start;
           -ms-flex-align: start;
               align-items: flex-start;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-bottom: 5px;
    }
 }
 
@@ -1437,6 +1442,13 @@ body.error404 p {
    margin-left: 3rem;
 }
 
+@media screen and (max-width: 480px) {
+   .site-footer .footer-mentions .milipol {
+      margin-left: 5rem;
+      margin-top: -10px;
+   }
+}
+
 .site-footer .footer-mentions p {
    font-size: 1rem;
    color: #9E9FAB;
@@ -1444,7 +1456,13 @@ body.error404 p {
    margin-right: 55px;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 480px) {
+   .site-footer .footer-mentions p {
+      margin-right: 0;
+   }
+}
+
+@media screen and (max-width: 480px) {
    .site-footer .footer-mentions p .flex.flex-between {
       margin-top: 2rem !important;
    }
