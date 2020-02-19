@@ -276,7 +276,7 @@ h3,
 h4,
 h5,
 h6 {
-   color: #050924;
+   color: #000;
    font-family: "futura-bold", arial, sans-serif;
    margin: 1.2rem 0;
 }
@@ -372,7 +372,11 @@ p {
    background: inherit;
    margin: 5rem 0;
    padding: 5rem 8rem;
-   border-left: 4px solid white;
+   border-left: 4px solid #2E294E;
+}
+
+.article-content blockquote h5 {
+   color: #2E294E;
 }
 
 @media screen and (max-width: 768px) {
@@ -409,7 +413,6 @@ p {
 }
 
 .article-content blockquote p.important1::before {
-   content: "-";
    display: inline-block;
    margin-right: 0.5rem;
 }
@@ -1230,7 +1233,7 @@ body.error404 p {
 
 .site-footer .nf-form-item label {
    position: absolute;
-   color: #050924;
+   color: #79757e;
    font-family: "graphik-regular", arial, sans-serif;
    font-size: 1.4rem;
    position: absolute;
@@ -1312,10 +1315,11 @@ body.error404 p {
    padding: 2rem 3rem;
    -webkit-box-shadow: none;
            box-shadow: none;
+   background: #2B8D9F;
 }
 
 .site-footer .newsletter-form .nf-main-content [class^=btn]:hover {
-   background: white;
+   background: #2d94a7;
 }
 
 .site-footer h2.nf-title {
@@ -4428,7 +4432,7 @@ body.faq .faq-summary {
    font-size: 14px;
    color: #79757e;
    line-height: 24px;
-   color: #D1D1D1 !important;
+   color: #79757e !important;
 }
 
 .front .become-insider,
