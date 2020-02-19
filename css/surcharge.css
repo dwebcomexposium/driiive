@@ -2949,10 +2949,6 @@ a.externe.lien2 {
    content: url("/theme/visionvo_git_desktop/img/burger-menu.svg");
 }
 
-.test-menu-res::before .test-menu-res--active {
-   content: "";
-}
-
 @media screen and (max-width: 1024px) {
    .test-menu-res {
       display: inline-block;
@@ -5509,6 +5505,13 @@ body.article_list .cxp-pagination .la-item .la-item-content {
    background-size: 145%;
    background-repeat: no-repeat;
    top: 96px !important;
+}
+
+@media screen and (max-width: 1024px) {
+   .content822414 .article-wrapper .article-title::before {
+      background-size: inherit;
+      top: 100px;
+   }
 }
 
 body.error404 .tt-dropdown-menu {
