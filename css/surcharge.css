@@ -993,7 +993,7 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 {
 }
 
 .list-articles .la-item-desc {
-   color: #D1D1D1 !important;
+   color: #79757e !important;
 }
 
 .front .agenda table td:first-child p {
@@ -5471,7 +5471,7 @@ body.article_list .cxp-pagination .la-item .la-item-title a {
 
 body.article_list .cxp-pagination .la-item .la-item-img {
    margin: 0 0 0 3rem;
-   border-bottom: 4px solid white;
+   border-bottom: 4px solid #2B8D9F;
 }
 
 @media screen and (max-width: 768px) {
