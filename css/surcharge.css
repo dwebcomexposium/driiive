@@ -1294,7 +1294,7 @@ body.error404 p {
        transform: translate(-50%, -50%);
    bottom: -91px;
    color: #050924;
-   top: 230px;
+   top: 165px;
 }
 
 .site-footer #comexposium_newsletter_email {
@@ -2856,12 +2856,12 @@ input[type="checkbox"] {
    height: 10px !important;
    width: 10px !important;
    background: #fff;
-   border: 3px solid white !important;
+   border: 3px solid #eeeeee !important;
    outline: 0;
 }
 
 input[type="checkbox"]:checked {
-   border: 3px solid white !important;
+   border: 3px solid #eeeeee !important;
    background: #ccc;
    outline: 0;
    margin: 0px;
