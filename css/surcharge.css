@@ -2474,6 +2474,43 @@ header.site-banner .linkid758169 a:hover {
    border-color: #38325f;
 }
 
+@media screen and (max-width: 1200px) {
+   .widget-icon .openCapTrigger {
+      z-index: 999 !important;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   header.site-banner>.inside .main-navigation {
+      top: 31px !important;
+      height: calc(100vh - 24px) !important;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   .widget-my-selection {
+      z-index: 999 !important;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   .mn-menu-item-822480 {
+      margin-bottom: 155px !important;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   .mn-menu-item-822480 a {
+      top: 29px !important;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   header.site-banner>.inside .main-navigation #widgetMobileLinkOpenCap a {
+      font-size: 17px !important;
+   }
+}
+
 
 /* Component */
 
@@ -3838,6 +3875,7 @@ body.faq .faq-summary {
    -webkit-box-align: center !important;
        -ms-flex-align: center !important;
            align-items: center !important;
+   letter-spacing: 0 !important;
 }
 
 .front .article-focus.landing a.lien2:hover {
