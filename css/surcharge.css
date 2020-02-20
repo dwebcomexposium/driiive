@@ -2480,6 +2480,7 @@ header.site-banner .linkid758169 a:hover {
 
 header.site-banner>.inside .main-navigation {
    top: 25px !important;
+   height: calc(100vh - 24px) !important;
 }
 
 .widget-my-selection {
@@ -2492,6 +2493,10 @@ header.site-banner>.inside .main-navigation {
 
 .mn-menu-item-822480 a {
    top: 20px !important;
+}
+
+#widgetMobileLinkOpenCap a {
+   font-size: 17px;
 }
 
 
