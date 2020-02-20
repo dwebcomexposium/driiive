@@ -1440,8 +1440,12 @@ body.error404 p {
    }
 }
 
+.site-footer .footer-mentions .footer-brands a {
+   width: 123px !important;
+}
+
 .site-footer .footer-mentions .milipol {
-   width: 11rem;
+   width: 6rem;
    margin: -2rem 0 -1rem 0;
    margin-left: 3rem;
 }
