@@ -2474,31 +2474,6 @@ header.site-banner .linkid758169 a:hover {
    border-color: #38325f;
 }
 
-.widget-icon .openCapTrigger {
-   z-index: 999 !important;
-}
-
-header.site-banner>.inside .main-navigation {
-   top: 31px !important;
-   height: calc(100vh - 24px) !important;
-}
-
-.widget-my-selection {
-   z-index: 999 !important;
-}
-
-.mn-menu-item-822480 {
-   margin-bottom: 155px !important;
-}
-
-.mn-menu-item-822480 a {
-   top: 29px !important;
-}
-
-header.site-banner>.inside .main-navigation #widgetMobileLinkOpenCap a {
-   font-size: 17px !important;
-}
-
 
 /* Component */
 
