@@ -1301,6 +1301,12 @@ body.error404 p {
    top: 165px;
 }
 
+@media screen and (max-width: 1024px) {
+   .site-footer .optin-container .nf-form-input {
+      top: 127px !important;
+   }
+}
+
 .site-footer #comexposium_newsletter_email {
    margin: 0 !important;
 }
