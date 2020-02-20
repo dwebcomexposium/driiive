@@ -1266,6 +1266,10 @@ body.error404 p {
    margin-right: 1rem;
 }
 
+.site-footer .newsletter-form .nf-main-content .nf-form-input input[type="checkbox"] {
+   border: 3px solid #eeeeee !important;
+}
+
 @media screen and (max-width: 768px) {
    .site-footer .newsletter-form .nf-main-content .nf-form-input input[type="checkbox"] {
       -webkit-transform: scale(1.3);
@@ -2812,7 +2816,7 @@ header.site-banner .linkid758169 a:hover {
 }
 
 .site-footer .newsletter-form .nf-main-content .nf-form-input {
-   top: 295px;
+   top: 165px;
 }
 
 @media screen and (max-width: 1200px) {
