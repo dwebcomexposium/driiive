@@ -422,7 +422,7 @@ p {
 }
 
 .__cf_email__ {
-   color: white;
+   color: #2B8D9F;
 }
 
 .article-navigation .inside ul.an-list {
@@ -3562,12 +3562,27 @@ body.faq .intro {
    max-width: 79rem;
    margin: 0 auto;
    padding: 6rem 0;
+   position: relative;
+}
+
+body.faq .intro::after {
+   content: '';
+   width: 10.5rem;
+   height: .4rem;
+   background: #2E294E;
+   position: absolute;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+   bottom: 1rem;
 }
 
 body.faq .intro p {
    font-size: 2.2rem;
-   font-family: "graphik-bold", arial, sans-serif;
-   color: #C6C8D7;
+   font-family: "graphik-regular", arial, sans-serif;
+   color: #79757e;
+   font-weight: bold;
 }
 
 body.faq .faq-sub-title {
@@ -3617,6 +3632,10 @@ body.faq .faq-content .fc-item-nb {
 body.faq .faq-content .icon-minus,
 body.faq .faq-content .icon-plus {
    display: none;
+}
+
+body.faq #faq-1 {
+   margin-top: 5rem;
 }
 
 body.faq .faq-main-title {
