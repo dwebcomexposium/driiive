@@ -3582,7 +3582,7 @@ body.faq .faq-content {
 }
 
 body.faq .faq-content h2.fc-title {
-   color: white;
+   color: #000;
 }
 
 body.faq .faq-content:last-child {
@@ -3609,7 +3609,7 @@ body.faq .faq-content .fc-item-title a:hover {
 }
 
 body.faq .faq-content .fc-item-nb {
-   background-color: white;
+   background-color: #2B8D9F;
 }
 
 body.faq .faq-content .icon-minus,
