@@ -2495,8 +2495,8 @@ header.site-banner>.inside .main-navigation {
    top: 20px !important;
 }
 
-#widgetMobileLinkOpenCap a {
-   font-size: 17px;
+header.site-banner>.inside .main-navigation #widgetMobileLinkOpenCap a {
+   font-size: 17px !important;
 }
 
 
