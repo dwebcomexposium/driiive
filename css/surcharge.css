@@ -2482,6 +2482,18 @@ header.site-banner>.inside .main-navigation {
    top: 25px !important;
 }
 
+.widget-my-selection {
+   z-index: 999 !important;
+}
+
+.mn-menu-item-822480 {
+   margin-bottom: 155px !important;
+}
+
+.mn-menu-item-822480 a {
+   top: 20px !important;
+}
+
 
 /* Component */
 
