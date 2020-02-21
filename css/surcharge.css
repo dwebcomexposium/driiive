@@ -1346,6 +1346,17 @@ body.error404 p {
    background: #2d94a7;
 }
 
+.site-footer .userAccount-newsletter .nf-main-content .box-dark .inside .nf-title {
+   font-size: 3.2rem;
+   color: black;
+   color: #050924;
+   font-size: 3.2rem;
+   text-transform: uppercase;
+   padding-top: 7rem !important;
+   margin-bottom: 8rem;
+   font-family: "graphik-bold", arial, sans-serif;
+}
+
 .site-footer h2.nf-title {
    color: #050924;
    font-size: 3.2rem;
