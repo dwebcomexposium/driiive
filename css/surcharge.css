@@ -1264,6 +1264,7 @@ body.error404 p {
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
+   top: 278px;
 }
 
 .site-footer .newsletter-form .nf-main-content .nf-form-input input {
@@ -1353,7 +1354,7 @@ body.error404 p {
    font-size: 3.2rem;
    text-transform: uppercase;
    padding-top: 7rem !important;
-   margin-bottom: 8rem;
+   margin-bottom: 3rem;
    font-family: "graphik-bold", arial, sans-serif;
 }
 
