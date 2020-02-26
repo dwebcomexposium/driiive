@@ -1675,7 +1675,7 @@ header.site-banner .linkid822447 a {
 
 @media screen and (max-width: 768px) {
    header.site-banner .linkid822447 a {
-      width: 92%;
+      width: 100%;
    }
 }
 
@@ -1705,7 +1705,7 @@ header.site-banner .linkid822448 a {
 
 @media screen and (max-width: 768px) {
    header.site-banner .linkid822448 a {
-      width: 92%;
+      width: 100%;
    }
 }
 
@@ -2538,7 +2538,7 @@ header.site-banner .linkid758169 a:hover {
 @media screen and (max-width: 1200px) {
    header.site-banner>.inside .main-navigation {
       top: 31px !important;
-      height: calc(100vh - 24px) !important;
+      height: calc(100vh - 147px) !important;
    }
 }
 
@@ -2567,8 +2567,20 @@ header.site-banner .linkid758169 a:hover {
 }
 
 @media screen and (max-width: 1200px) {
+   .linkid822447 {
+      margin-bottom: 0 !important;
+   }
+}
+
+@media screen and (max-width: 1200px) {
    .linkid822448 {
       background-color: #000 !important;
+   }
+}
+
+@media screen and (max-width: 1200px) {
+   .linkid822448 a {
+      padding: 1.8rem 1.5rem !important;
    }
 }
 
@@ -2576,13 +2588,11 @@ header.site-banner .linkid758169 a:hover {
    .ql-list.unstyled {
       margin-top: 40px !important;
       margin-top: 0 !important;
-      top: 570px !important;
-   }
-}
-
-@media screen and (max-width: 1025px) {
-   .mn-menu-item-822430.is-open ul {
-      margin-bottom: 150px !important;
+      top: 562px !important;
+      background: black;
+      left: 0 !important;
+      right: 0 !important;
+      margin-top: -42px !important;
    }
 }
 
