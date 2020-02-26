@@ -956,7 +956,7 @@ a.externe.lien3:hover {
    color: #309fb3 !important;
 }
 
-a.lien2 {
+.content822402 a.lien2 {
    background: #2B8D9F;
    margin-right: 8px;
    color: white;
@@ -966,17 +966,17 @@ a.lien2 {
 }
 
 @media screen and (max-width: 1025px) {
-   a.lien2 {
+   .content822402 a.lien2 {
       margin-bottom: 11px;
       width: 100%;
    }
 }
 
-a.lien2::after {
+.content822402 a.lien2::after {
    content: '';
 }
 
-a.lien2:hover {
+.content822402 a.lien2:hover {
    background: #2B8D9F !important;
    color: white !important;
    background: #309fb3 !important;
