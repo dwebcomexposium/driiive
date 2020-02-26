@@ -946,16 +946,37 @@ p.style4 .zip:hover {
 }
 
 a.lien3,
-a.lien2,
 a.externe.lien3 {
    color: #2B8D9F !important;
    text-decoration: underline;
 }
 
 a.lien3:hover,
-a.lien2:hover,
 a.externe.lien3:hover {
    color: #309fb3 !important;
+}
+
+a.lien2 {
+   background: #2B8D9F;
+   margin-right: 8px;
+   color: white;
+   -webkit-transition: all 0.2s ease-in-out;
+   -o-transition: all 0.2s ease-in-out;
+   transition: all 0.2s ease-in-out;
+}
+
+a.lien2::after {
+   content: '';
+}
+
+a.lien2:hover {
+   background: #2B8D9F !important;
+   color: white !important;
+   background: #309fb3 !important;
+}
+
+.content822402 .txtcenter {
+   margin-top: 42px;
 }
 
 .btn-primary.btn-xlarge.with-icon,
