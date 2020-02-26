@@ -2554,14 +2554,21 @@ header.site-banner .linkid758169 a:hover {
 }
 
 @media screen and (max-width: 1200px) {
-   header.site-banner .block.block-small.quicklinks .ql-list.unstyled {
-      top: 462px !important;
+   .linkid822448 {
+      background-color: #000 !important;
    }
 }
 
-@media screen and (max-width: 1200px) {
-   .linkid822448 {
-      background-color: #000 !important;
+@media screen and (max-width: 1025px) {
+   .ql-list.unstyled {
+      margin-top: 40px !important;
+      margin-top: 0 !important;
+   }
+}
+
+@media screen and (max-width: 1025px) {
+   .mn-menu-item-822430.is-open ul {
+      margin-bottom: 150px !important;
    }
 }
 
