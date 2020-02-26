@@ -965,6 +965,13 @@ a.lien2 {
    transition: all 0.2s ease-in-out;
 }
 
+@media screen and (max-width: 1025px) {
+   a.lien2 {
+      margin-bottom: 11px;
+      width: 100%;
+   }
+}
+
 a.lien2::after {
    content: '';
 }
