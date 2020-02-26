@@ -945,6 +945,19 @@ p.style4 .zip:hover {
    color: white !important;
 }
 
+a.lien3,
+a.lien2,
+a.externe.lien3 {
+   color: #2B8D9F !important;
+   text-decoration: underline;
+}
+
+a.lien3:hover,
+a.lien2:hover,
+a.externe.lien3:hover {
+   color: #309fb3 !important;
+}
+
 .btn-primary.btn-xlarge.with-icon,
 .btn-primary.btn-large.with-icon {
    background-color: #2B8D9F !important;
@@ -2563,6 +2576,7 @@ header.site-banner .linkid758169 a:hover {
    .ql-list.unstyled {
       margin-top: 40px !important;
       margin-top: 0 !important;
+      top: 570px !important;
    }
 }
 
@@ -3847,6 +3861,7 @@ body.faq .faq-summary {
 .front .article-focus.landing p {
    margin: 0;
    color: #fff !important;
+   text-transform: uppercase;
 }
 
 .front .article-focus.landing em {
