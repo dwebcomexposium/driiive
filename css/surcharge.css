@@ -1730,14 +1730,11 @@ header.site-banner .linkid822448 a:hover {
    border-color: white;
 }
 
-header.site-banner .linkid822448 a,
-header.site-banner .linkid822447 a {
+header.site-banner .linkid822448,
+header.site-banner .linkid822447 {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
-   -webkit-box-align: center;
-       -ms-flex-align: center;
-           align-items: center;
    -webkit-box-pack: center;
        -ms-flex-pack: center;
            justify-content: center;
