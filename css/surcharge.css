@@ -449,6 +449,13 @@ p {
    max-width: 46rem;
 }
 
+@media screen and (max-width: 780px) {
+   .article-navigation .inside ul.an-list li.an-item-previous,
+   .article-navigation .inside ul.an-list li.an-item-next {
+      margin: 12px 0 0 0;
+   }
+}
+
 .article-navigation .inside ul.an-list li.an-item-previous a,
 .article-navigation .inside ul.an-list li.an-item-next a {
    display: -webkit-box;
@@ -765,6 +772,18 @@ custom[name="factbox"] a.externe:hover {
    top: 96px !important;
 }
 
+@media screen and (max-width: 780px) {
+   .content822402 .article-wrapper .article-title::before {
+      background-size: 200%;
+   }
+}
+
+@media screen and (max-width: 580px) {
+   .content822402 .article-wrapper .article-title::before {
+      background-size: 310%;
+   }
+}
+
 .flex {
    display: -webkit-box;
    display: -ms-flexbox;
@@ -955,6 +974,12 @@ a.lien3 {
    border-radius: 2px;
    padding: 1.8rem 2.8rem;
    text-decoration: none;
+}
+
+@media screen and (max-width: 1080px) {
+   a.lien3 {
+      display: block;
+   }
 }
 
 @media screen and (max-width: 1025px) {
@@ -1393,6 +1418,12 @@ body.error404 p {
    font-family: "graphik-bold", arial, sans-serif;
 }
 
+@media screen and (max-width: 760px) {
+   .site-footer .userAccount-newsletter .nf-main-content .box-dark .inside .nf-title {
+      padding-top: 4rem !important;
+   }
+}
+
 .site-footer h2.nf-title {
    color: #050924;
    font-size: 3.2rem;
@@ -1455,6 +1486,7 @@ body.error404 p {
    -webkit-box-pack: center;
        -ms-flex-pack: center;
            justify-content: center;
+   background: inherit !important;
 }
 
 .site-footer a.btn-primary:hover {
@@ -1585,6 +1617,7 @@ body.error404 p {
 @media screen and (max-width: 760px) {
    .site-footer .nav-footer {
       padding: 6rem 0 2rem 0;
+      padding-bottom: 61px;
    }
 }
 
