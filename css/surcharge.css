@@ -3035,6 +3035,10 @@ header.site-banner .linkid758169 a:hover {
    }
 }
 
+.site-footer .newsletter-form .nf-main-content .nf-form-input {
+   top: 193px !important;
+}
+
 .site-footer .newsletter-form .nf-main-content .nf-form-input input {
    margin-right: 2rem !important;
    margin-top: -.3rem !important;
