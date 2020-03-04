@@ -3909,6 +3909,11 @@ body.faq .faq-summary {
    display: none;
 }
 
+.front .list-articles .inside .cxp-pagination .la-list .la-item .cx-lazy-load {
+   max-width: 100% !important;
+   margin-left: 0 !important;
+}
+
 .front .become-insider .lien1:hover,
 .front .become-partners .lien1:hover {
    border-color: white !important;
