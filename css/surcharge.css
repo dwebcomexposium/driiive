@@ -968,9 +968,13 @@ p.style4 .zip:hover {
    color: white !important;
 }
 
+.content822421 a.externe {
+   color: white;
+   text-decoration: none !important;
+}
+
 a.lien3,
-a.externe.lien3,
-a.externe {
+a.externe.lien3 {
    text-decoration: none !important;
    background: #2B8D9F !important;
    margin-right: 8px;
@@ -985,24 +989,21 @@ a.externe {
 
 @media screen and (max-width: 1080px) {
    a.lien3,
-   a.externe.lien3,
-   a.externe {
+   a.externe.lien3 {
       display: block;
    }
 }
 
 @media screen and (max-width: 1025px) {
    a.lien3,
-   a.externe.lien3,
-   a.externe {
+   a.externe.lien3 {
       margin-bottom: 11px;
       width: 100%;
    }
 }
 
 a.lien3:hover,
-a.externe.lien3:hover,
-a.externe:hover {
+a.externe.lien3:hover {
    background: #2B8D9F !important;
    color: white !important;
    background: #309fb3 !important;
