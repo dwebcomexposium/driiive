@@ -970,6 +970,12 @@ p.style4 .zip:hover {
 
 a.lien3,
 a.externe.lien3 {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
    text-decoration: none !important;
    background: #2B8D9F;
    margin-right: 8px;
@@ -4133,6 +4139,15 @@ body.faq .faq-summary {
    }
 }
 
+.front .insiders-intro-wrap .insiders-intro a.lien1 {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+}
+
 .front .insiders-intro-wrap .insiders-intro a.lien1:hover {
    border: 3px solid #000 !important;
 }
@@ -4143,6 +4158,15 @@ body.faq .faq-summary {
 
 .front .insiders-intro-wrap .insiders-intro a.lien2:hover {
    background: transparent;
+}
+
+.front .insiders-intro-wrap .insiders-intro a.lien3 {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
 }
 
 .front .insiders-intro-wrap .insiders-intro img {
