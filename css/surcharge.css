@@ -181,11 +181,6 @@ html ::selection {
    background: #D1D1D1;
 }
 
-.article-content a.externe,
-.article-content a.interne {
-   text-decoration: underline !important;
-}
-
 @media screen and (max-width: 425px) {
    h2 {
       font-size: 26px !important;
