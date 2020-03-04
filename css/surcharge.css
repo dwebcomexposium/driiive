@@ -2318,6 +2318,12 @@ header.site-banner .block.block-small.quicklinks .ql-list.unstyled {
    }
 }
 
+@media screen and (max-width: 376px) {
+   header.site-banner .block.block-small.quicklinks .ql-list.unstyled {
+      margin-top: 3% !important;
+   }
+}
+
 @media screen and (max-width: 321px) {
    header.site-banner .block.block-small.quicklinks .ql-list.unstyled {
       margin-top: -27% !important;
