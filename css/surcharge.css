@@ -883,28 +883,6 @@ a.lien1:hover {
    border-color: none !important;
 }
 
-a.link-view-all,
-a.externe:not(.lien1),
-a.lien2,
-a.lien4 {
-   padding: 0;
-   font-size: 1.2rem;
-   line-height: 2.8rem;
-   font-family: "futura-bold", arial, sans-serif;
-   background-color: transparent;
-   text-decoration: none;
-   display: inline-block;
-   text-transform: uppercase;
-   color: #2E294E;
-}
-
-a.link-view-all:hover,
-a.externe:not(.lien1):hover,
-a.lien2:hover,
-a.lien4:hover {
-   color: #79757e;
-}
-
 p.style3 .pdf,
 p.style3 .zip,
 p.style4 .pdf,
@@ -934,14 +912,14 @@ a.lien3,
 a.externe.lien3,
 a.externe {
    text-decoration: none !important;
-   background: #2B8D9F;
+   background: #2B8D9F !important;
    margin-right: 8px;
    color: white;
    -webkit-transition: all 0.2s ease-in-out;
    -o-transition: all 0.2s ease-in-out;
    transition: all 0.2s ease-in-out;
    border-radius: 2px;
-   padding: 1.8rem 2.8rem;
+   padding: 1.8rem 2.8rem !important;
    text-decoration: none;
 }
 
