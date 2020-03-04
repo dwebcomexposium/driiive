@@ -784,6 +784,10 @@ custom[name="factbox"] a.externe:hover {
    }
 }
 
+.txtcenter {
+   margin-top: 62px;
+}
+
 .flex {
    display: -webkit-box;
    display: -ms-flexbox;
