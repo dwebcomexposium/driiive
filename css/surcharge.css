@@ -3123,7 +3123,7 @@ input[type="checkbox"]:checked:before {
    -webkit-appearance: none;
    -moz-appearance: none;
    appearance: none;
-   content: '\f00c';
+   content: inherit;
    display: block;
    color: grey;
    font-size: 13px;
