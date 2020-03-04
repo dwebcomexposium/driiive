@@ -970,7 +970,7 @@ p.style4 .zip:hover {
 
 a.lien3,
 a.externe.lien3 {
-   text-decoration: none !important;
+   text-decoration: none;
    background: #2B8D9F;
    margin-right: 8px;
    color: white;
@@ -1002,10 +1002,6 @@ a.externe.lien3:hover {
    background: #2B8D9F !important;
    color: white !important;
    background: #309fb3 !important;
-}
-
-.content822402 .txtcenter {
-   margin-top: 42px;
 }
 
 .btn-primary.btn-xlarge.with-icon,
