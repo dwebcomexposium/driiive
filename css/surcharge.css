@@ -964,7 +964,8 @@ p.style4 .zip:hover {
    color: white !important;
 }
 
-a.lien3 {
+a.lien3,
+a.externe.lien3 {
    background: #2B8D9F;
    margin-right: 8px;
    color: white;
@@ -977,19 +978,22 @@ a.lien3 {
 }
 
 @media screen and (max-width: 1080px) {
-   a.lien3 {
+   a.lien3,
+   a.externe.lien3 {
       display: block;
    }
 }
 
 @media screen and (max-width: 1025px) {
-   a.lien3 {
+   a.lien3,
+   a.externe.lien3 {
       margin-bottom: 11px;
       width: 100%;
    }
 }
 
-a.lien3:hover {
+a.lien3:hover,
+a.externe.lien3:hover {
    background: #2B8D9F !important;
    color: white !important;
    background: #309fb3 !important;
@@ -1342,7 +1346,7 @@ body.error404 p {
 }
 
 .site-footer .newsletter-form .nf-main-content .nf-form-input input[type="checkbox"] {
-   border: 3px solid #eeeeee !important;
+   display: none !important;
 }
 
 @media screen and (max-width: 768px) {
@@ -3008,7 +3012,7 @@ header.site-banner .linkid758169 a:hover {
 }
 
 .site-footer .newsletter-form .nf-main-content .nf-form-input {
-   top: 165px;
+   top: 263px !important;
 }
 
 @media screen and (max-width: 1200px) {
@@ -4313,7 +4317,7 @@ body.faq .faq-summary {
 }
 
 .front .insiders-enrollment-wrap img {
-   border-bottom: 4px solid #2B8D9F !important;
+   border-bottom: none !important;
 }
 
 .front .insiders-enrollment-wrap a.lien1 {
@@ -5563,7 +5567,7 @@ body.faq .faq-summary {
 }
 
 .list-articles .inside .cxp-pagination .la-list .la-item .cx-lazy-load {
-   border-bottom: 4px solid #2B8D9F;
+   border-bottom: none !important;
    width: 100% !important;
 }
 
