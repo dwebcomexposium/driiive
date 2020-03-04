@@ -905,20 +905,6 @@ a.lien4:hover {
    color: #79757e;
 }
 
-a.externe:not(.lien2,
-.lien1,
-.lien4.pdf) {
-   border: none !important;
-   background: transparent !important;
-   padding: 0 !important;
-   padding: 0 !important;
-}
-
-a.externe:not(.lien2,
-.lien1):hover {
-   background: transparent;
-}
-
 p.style3 .pdf,
 p.style3 .zip,
 p.style4 .pdf,
@@ -942,30 +928,6 @@ p.style3 .zip:hover,
 p.style4 .pdf:hover,
 p.style4 .zip:hover {
    background-color: white;
-}
-
-.focus2.txtcenter a.externe.lien2,
-.focus2.txtcenter a.lien2,
-.focus2.txtcenter a.externe {
-   color: white;
-   border-color: #2B8D9F;
-   background-color: #2B8D9F;
-   border: none !important;
-   text-decoration: none !important;
-}
-
-.focus2.txtcenter a.externe.lien2::after,
-.focus2.txtcenter a.lien2::after,
-.focus2.txtcenter a.externe::after {
-   content: none;
-}
-
-.focus2.txtcenter a.externe.lien2:hover,
-.focus2.txtcenter a.lien2:hover,
-.focus2.txtcenter a.externe:hover {
-   background: #309fb3 !important;
-   border-color: #309fb3 !important;
-   color: white !important;
 }
 
 a.lien3,
