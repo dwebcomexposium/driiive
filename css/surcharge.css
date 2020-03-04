@@ -970,7 +970,7 @@ p.style4 .zip:hover {
 
 a.lien3,
 a.externe.lien3 {
-   text-decoration: none;
+   text-decoration: none !important;
    background: #2B8D9F;
    margin-right: 8px;
    color: white;
@@ -2301,6 +2301,7 @@ header.site-banner .block.block-small.quicklinks .ql-list.unstyled {
    display: -ms-flexbox;
    display: flex;
    z-index: 100;
+   margin-top: -4% !important;
 }
 
 @media screen and (max-width: 1024px) {
@@ -2615,7 +2616,7 @@ header.site-banner .linkid758169 a:hover {
 @media screen and (max-width: 1200px) {
    header.site-banner>.inside .main-navigation {
       top: 31px !important;
-      height: calc(100vh - 147px) !important;
+      height: calc(100vh - 24px) !important;
    }
 }
 
