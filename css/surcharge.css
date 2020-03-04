@@ -1332,6 +1332,12 @@ body.error404 p {
    top: 278px;
 }
 
+@media screen and (max-width: 1025px) {
+   .site-footer .newsletter-form .nf-main-content .nf-form-input {
+      top: 213px !important;
+   }
+}
+
 .site-footer .newsletter-form .nf-main-content .nf-form-input input {
    margin-top: .2rem;
    height: 6.1rem;
@@ -5602,6 +5608,8 @@ body.faq .faq-summary {
 .list-articles .inside .cxp-pagination .la-list .la-item .cx-lazy-load {
    border-bottom: none !important;
    width: 100% !important;
+   max-width: 280px;
+   margin-left: 30px;
 }
 
 body.article_list .main-title-with-link {
