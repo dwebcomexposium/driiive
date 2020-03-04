@@ -966,6 +966,7 @@ p.style4 .zip:hover {
 
 a.lien3,
 a.externe.lien3 {
+   text-decoration: none !important;
    background: #2B8D9F;
    margin-right: 8px;
    color: white;
@@ -3040,7 +3041,7 @@ header.site-banner .linkid758169 a:hover {
 }
 
 .site-footer .newsletter-form .nf-main-content .nf-form-input {
-   top: 193px !important;
+   top: 263px !important;
 }
 
 .site-footer .newsletter-form .nf-main-content .nf-form-input input {
