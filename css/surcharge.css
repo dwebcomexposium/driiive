@@ -969,7 +969,8 @@ p.style4 .zip:hover {
 }
 
 a.lien3,
-a.externe.lien3 {
+a.externe.lien3,
+a.externe {
    text-decoration: none !important;
    background: #2B8D9F;
    margin-right: 8px;
@@ -984,21 +985,24 @@ a.externe.lien3 {
 
 @media screen and (max-width: 1080px) {
    a.lien3,
-   a.externe.lien3 {
+   a.externe.lien3,
+   a.externe {
       display: block;
    }
 }
 
 @media screen and (max-width: 1025px) {
    a.lien3,
-   a.externe.lien3 {
+   a.externe.lien3,
+   a.externe {
       margin-bottom: 11px;
       width: 100%;
    }
 }
 
 a.lien3:hover,
-a.externe.lien3:hover {
+a.externe.lien3:hover,
+a.externe:hover {
    background: #2B8D9F !important;
    color: white !important;
    background: #309fb3 !important;
