@@ -1922,11 +1922,18 @@ header.site-banner>.inside .main-navigation {
           flex-basis: inherit;
       width: 100%;
       position: absolute;
-      top: 105px;
-      background: #012c46;
+      top: 75px;
+      background: #fff;
       height: calc(100vh - 25px) !important;
       overflow-y: scroll;
    }
+   
+      header.site-banner.is-stuck>.inside .main-navigation {
+      top: 0px;   }
+	  
+	  
+	  
+	  .mn-menu li.mn-item-lvl-1:last-child>.mn-link:last-child,.mn-menu li.mn-item-lvl-1:nth-last-child(2)>.mn-link {  width: 100%!important  }
 }
 
 header.site-banner>.inside .main-navigation .mn-menu-line ul li .mn-menu-submenu li a {
@@ -2203,9 +2210,32 @@ header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a::before {
 @media screen and (max-width: 1024px) {
    header.site-banner .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a::before {
       display: block !important;
-      width: 224px !important;
-      background-size: 110px !important;
+      width: 70px !important;
+      background-size: 70px !important;
+	  margin-top: -20px;
    }
+   
+   
+     
+     
+    header.site-banner.is-stuck .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a::before {
+      display: block !important;
+      width: 45px !important;
+      background-size: 45px !important;
+	  margin-top: -22px;
+   }
+   
+   
+   header.site-banner .lang-switcher .ls-trigger {
+   color: #fff;
+   position: fixed;
+   top: 4px; 
+   right: 0;
+   
+
+}
+
+
 }
 
 header.site-banner .linkid860462 a,
@@ -2250,6 +2280,14 @@ header.site-banner .top-header {
    }
 }
 
+@media screen and (min-width: 1024px) {
+  header.site-banner.is-stuck .top-header .date-salon {  position: fixed;  right: -110px;  transform: rotate(-90deg); top: 310px; border-radius: 9px 9px 0  0; }
+
+}
+
+
+
+
 header.site-banner .top-header .date-salon {
    color: #fff;
    font-family: 'Arial', Helvetica, sans-serif;
@@ -2268,17 +2306,20 @@ header.site-banner .top-header .date-salon span {
      font-weight: 400!important;}
 
 @media screen and (max-width: 1024px) {
-   header.site-banner .top-header .date-salon {
+   header.site-banner .top-header .date-salon, header.site-banner.is-stuck .top-header .date-salon {
       border: none;
       font-size: 1.5rem;
       top: 0;
       left: 0;
       position: absolute;
-color: #090909;
+color: #fff;
+text-align: center!important;
 border-bottom: 1px solid #090909;
       width: 100%;
       text-align: left;
 	  border-radius: 0;
+	  transform: none;
+	  position: fixed;
    }
 }
 
@@ -2758,16 +2799,6 @@ header.site-banner .linkid860466 a:before {
   
 }
 
-.mn-menu-item-822480 .mn-link::before {
-   content: "";
-   position: absolute;
-   background-image: url(images/logo-toptransport.svg);
-   background-repeat: no-repeat;
-   width: 245px;
-   height: 89px;
-   left: 0;
-   
-}
 
 
 
@@ -4163,6 +4194,7 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
    .front .insiders-intro-wrap .insiders-intro {
       padding: 5rem;
       margin-bottom: -9rem !important;
+	  margin-top: 80px!important;
    }
 }
 
@@ -4438,7 +4470,7 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 }
 
 .front .insiders-speakers-wrap {
-   background-image: url("images/bg-inner.png");
+/*   background-image: url("images/bg-inner.png");*/
    background-position: center;
    background-size: cover;
    padding: 11rem 0 10rem 0;
@@ -6301,20 +6333,16 @@ Increase width in order to cover background buttons on mobile
 }
 
 @media (max-width: 768px) {
-	.hero {
+	/*.hero {
 		background: url(/theme/toptransport_git_desktop/images/toptransport-kv.svg) no-repeat;
 		background-size: 100%;
 		background-position: 84vw top;
-	}
+	}*/
 	
 	.af-title {
-		font-size: 33px;
-		font-family: 'Arial', Helvetica, sans-serif;
+
 		color: #090909;
-		text-transform: uppercase;
-		line-height: 1.2;
-		font-weight: normal;
-		margin-bottom: 40px;
+
 		padding-top: 5vw;
 	}
 	
@@ -6385,11 +6413,9 @@ Increase width in order to cover background buttons on mobile
 		margin-left: 0
 	}
 	
-	.front .style1 .lien1, .front .style1 .lien2 {
-	width: 100%; text-align: center!important; }
+	.front .style1 .lien1, .front .style1 .lien2 {width: 100%; text-align: center!important; }
 
-.mn-menu li.mn-item-lvl-1:last-child > .mn-link:last-child, .mn-menu li.mn-item-lvl-1:nth-last-child(2) > .mn-link {
-width: 100%!important }
+
 
 .mn-menu li.mn-item-lvl-1:last-child > .mn-link:before {display: none; }
 
@@ -6563,10 +6589,10 @@ border: 1px solid #E3E2E9!important;
 .mn-menu li.mn-item-lvl-1:last-child > .mn-link:before {
    content: "";
    position: absolute;
-/*   background-image: url(images/sep-white.svg);*/
+   background-image: url(images/sep-white.svg);
    background-repeat: no-repeat;
    width: 1px;
-   height: 40px;
+   height: 28px;
    left: 0;
    top: 20px;
 }
@@ -6669,7 +6695,6 @@ header.site-banner.is-stuck>.inside .main-navigation {
 }
 
 
-header.site-banner.is-stuck .top-header .date-salon {  position: fixed;  right: -110px;  transform: rotate(-90deg); top: 310px; border-radius: 9px 9px 0  0; }
 
 
 @media screen and (max-width: 1024px) {
@@ -6697,7 +6722,6 @@ header.site-banner .block.block-small.quicklinks:nth-child(7), .landing div.af-t
 }
 
  header.site-banner.is-stuck .mn-menu-item.mn-item-lvl-1.mn-menu-item-822480 a::before {
-   es/logo-driiive.svg);
     position: absolute;
     width: 53px;
     background-size: 53px;
@@ -6707,6 +6731,11 @@ header.site-banner .block.block-small.quicklinks:nth-child(7), .landing div.af-t
 
 @media only screen and (max-width: 1024px) {
     .site-banner.is-stuck .mn-menu-item-822480 .mn-link::before {background-image: url(images/logo-driiive.svg); }
+	.mn-menu li.mn-item-lvl-1:last-child > .mn-link:last-child, .mn-menu li.mn-item-lvl-1:nth-last-child(2) > .mn-link {width: 100%!important; border-radius: 20px; }
+	.mn-menu li.mn-item-lvl-1:nth-last-child(2), .mn-menu li.mn-item-lvl-1:nth-last-child(1) {margin: 10px 20px; }
+
+
+
 }
 
 body {
@@ -6738,7 +6767,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 110%;
 letter-spacing: 0.77px;
-text-transform: uppercase; }
+text-transform: uppercase;	}
 
 
 
