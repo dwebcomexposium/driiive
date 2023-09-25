@@ -261,7 +261,7 @@ h5 {
 .article-wrapper .article-intro p,
 .intro .ezxmltext-field p {
    font-family: 'Arial', Helvetica, sans-serif !important;
-   color: #0F7C48!important;
+   color: #6900FF !important;
    font-size: 1.9rem !important;
    margin-bottom: 0;
    font-weight: normal;
@@ -275,7 +275,7 @@ h5 {
    content: '';
    width: 19.5rem;
    height: .4rem;
- background: #0F7C48;
+ background: #6900FF;
    position: absolute;
    left: 50%;
    -webkit-transform: translate(-50%, -50%);
@@ -3999,7 +3999,7 @@ body.contact .contacts-list .inside>h1 {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("gfx/bg-inner.png");
+   background-image: url("gfx/bg-header.jpg");
    background-size: cover;
 }*/
 
@@ -4103,7 +4103,7 @@ body.faq .faq-main-title::after {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("gfx/bg-inner.png");
+   background-image: url("gfx/bg-header.jpg");
    background-size: cover;
 }
 
@@ -4483,7 +4483,7 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 }
 
 .front .insiders-speakers-wrap {
-/*   background-image: url("gfx/bg-inner.png");*/
+/*   background-image: url("gfx/bg-header.jpg");*/
    background-position: center;
    background-size: cover;
    padding: 11rem 0 10rem 0;
@@ -5925,7 +5925,7 @@ body.error404 .ep-intro .main-title::before {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("gfx/bg-inner.png");
+   background-image: url("gfx/bg-header.jpg");
    background-size: cover;
 }
 
@@ -6046,7 +6046,7 @@ body.search .box-light::before {
    top: 0;
    width: 100%;
    height: 100%;
-   background-image: url("gfx/bg-inner.png");
+   background-image: url("gfx/bg-header.jpg");
    background-size: cover;
 }
 
@@ -6102,7 +6102,7 @@ body.search .box-light .inside .form-txt {
    left: 0;
    top: 0;
    height: 355px;
-   background-image: url(gfx/bg-inner.png);
+   background-image: url(gfx/bg-header.jpg);
 }
 
 .content756427 #main {
@@ -6769,7 +6769,7 @@ body.front {
 
 
 
-.kvtop {position: absolute; right: 0;top:  400px; overflow: hidden;	}
+.kvtop {position: absolute; right: 0;top:  429px; overflow: hidden;	z-index: -9999;}
 
 
 .key-figures p {
@@ -6784,3 +6784,4 @@ text-transform: uppercase;	}
 
 
 .mn-link.mn-link:hover,.mn-link.mn-link:focus,.mn-link.mn-link.is-active,.is-open .mn-link.mn-link{background:none; color: #0B653A!important;}
+
