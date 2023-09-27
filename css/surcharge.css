@@ -339,7 +339,7 @@ li {
    background: inherit;
    margin: 5rem 0;
    padding: 5rem 8rem;
-   border-left: 4px solid #090909;
+   border-left: 10px solid #E7F0F7;
 }
 
 .article-content blockquote h5 {
@@ -395,7 +395,8 @@ li {
 }
 
 .at-main-title {
-   margin-top: 0 !important;  }
+   margin-top: 0 !important; 
+ }
 
 @media screen and (max-width: 620px) {
    .at-main-title {
@@ -415,7 +416,7 @@ em {
 }
 
 a {
-   color: #0F7C48;
+   color: #6900FF;
 }
 
 a:hover {
@@ -427,7 +428,7 @@ a:hover {
 }
 
 .article-title {
-   margin-top: -10rem;
+   margin-top: -10.5rem;
    background-color: inherit !important;
 }
 
@@ -451,6 +452,7 @@ border-radius: 27px;
 
 /* shodow */
 box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
+margin:30px 0 50px;
 }
 
 .article-title .inside .at-content span {
@@ -462,7 +464,7 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 }
 
 .__cf_email__ {
-   color: #2B8D9F;
+   color: #6900FF;
 }
 
 .block-title {
@@ -598,7 +600,7 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 }
 
 .sr-noresult-title .sr-term {
-   color: #2B8D9F;
+   color: #6900FF;
 }
 
 .sr-noresult-item {
@@ -655,8 +657,8 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 custom[name="factbox"] h2,
 custom[name="factbox"] p,
 custom[name="factbox"] a.externe {
-   background: #090909;
-   background-color: #090909;
+   background: #E7F0F7;
+   background-color: #E7F0F7;
    background-position: top 1px left;
 }
 
@@ -665,7 +667,6 @@ custom[name="factbox"] p {
    color: #090909;
    font-size: 1.6rem;
    margin-bottom: 0;
-   color: white;
    padding: 0 8.5rem 2.5rem 8rem !important;
 }
 
@@ -921,8 +922,8 @@ p.style4 .zip:hover {
 .focus2.txtcenter a.lien2,
 .focus2.txtcenter a.externe {
    color: white;
-   border-color: #2B8D9F;
-   background-color: #2B8D9F;
+   border-color: #6900FF;
+   background-color: #6900FF;
    border: none !important;
    text-decoration: none !important;
 }
@@ -945,7 +946,7 @@ p.style4 .zip:hover {
 a.externe.lien3,
 .content822421 a.externe {
    text-decoration: none !important;
-   background: #2B8D9F !important;
+   background: #6900FF !important;
    margin-right: 8px;
    color: white;
    -webkit-transition: all 0.2s ease-in-out;
@@ -976,14 +977,14 @@ a.externe.lien3,
 a.lien3:hover,
 a.externe.lien3:hover,
 .content822421 a.externe:hover {
-   background: #2B8D9F !important;
+   background: #6900FF !important;
    color: white !important;
    background: #309fb3 !important;
 }*/
 
 .btn-primary.btn-xlarge.with-icon,
 .btn-primary.btn-large.with-icon {
-   background-color: #2B8D9F !important;
+   background-color: #6900FF !important;
 }
 
 .front .insiders-enrollment-wrap a.lien1 {
@@ -1172,6 +1173,8 @@ header.site-banner a.mn-link {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
+   margin-top: 10px;
+   padding-top: 20px;
 }
 
 .social-sharing {
@@ -1294,7 +1297,7 @@ body.error404 p {
 }
 
 .site-footer .newsletter-form {
-   display: initial !important;
+   display: none !important;
 }
 
 .site-footer .newsletter-form .nf-main-content .nf-form-input {
@@ -3284,7 +3287,7 @@ a.externe.lien2 {
    display: none;
 }
 
-.table3 tr:first-child p {
+/*.table3 tr:first-child p {
    color: #D1D1D1 !important;
    text-align: center;
    margin: 0;
@@ -3303,7 +3306,7 @@ a.externe.lien2 {
 
 .table3 td p {
    margin: 0;
-}
+}*/
 
 .article-navigation .inside ul li {
    width: 78%;
@@ -3372,11 +3375,12 @@ strong {
 .breadcrumb-nav .bn-item-link {
     color: white;
     opacity: .6;
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     color: #090909;
     font-weight: normal;
     text-decoration: none;
     text-transform: uppercase;
+	letter-spacing: 1px;
 }
 
 .breadcrumb-nav .bn-item-link:hover {
@@ -3428,7 +3432,7 @@ strong {
    position: relative;
    z-index: 1;
    min-height: 45rem;
-   margin-bottom: 4.5rem;
+   margin-bottom: 0.5rem;
    text-align: center;
    display: -webkit-box;
    display: -ms-flexbox;
@@ -3463,7 +3467,7 @@ strong {
    color: #090909;
    font-family: 'Arial', Helvetica, sans-serif;
    font-weight: bold;
-   font-size: 59px;
+   font-size: 45px;
 }
 
 .article-wrapper .article-content {
@@ -3571,7 +3575,7 @@ strong {
 
 .article-content figure img {
    border: 0 none;
-   border-bottom: 4px solid #090909;
+/*   border-bottom: 4px solid #090909;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -3804,18 +3808,18 @@ strong {
    font-size: 1.4rem;
 }
 
-table tr td p {
+/*table tr td p {
    margin-top: .5rem !important;
    margin-bottom: .5rem !important;
-}
+}*/
 
-table tr:first-child td {
+/*table tr:first-child td {
    background: #090909;
    height: 5.5rem;
    vertical-align: middle !important;
-}
+}*/
 
-table tr:first-child p {
+/*table tr:first-child p {
    color: white;
    text-align: center;
    margin: 0;
@@ -3831,7 +3835,7 @@ table tr td {
    border-bottom: 0 none;
    border-top: 0 none;
    text-align: center;
-}
+}*/
 
 .map-responsive {
    overflow: hidden;
@@ -4044,7 +4048,9 @@ body.faq .faq-content {
 }
 
 body.faq .faq-content h2.fc-title {
-   color: #000;
+   color: #6900FF;
+   border-bottom: none;
+   font-weight: bold;
 }
 
 body.faq .faq-content:last-child {
@@ -4053,6 +4059,9 @@ body.faq .faq-content:last-child {
 
 body.faq .faq-content .fc-item {
    padding: 2.8rem 1rem;
+   background:#E7F0F7;
+   border: 2px solid #fff;
+   border-radius: 17px;
 }
 
 body.faq .faq-content .fc-item-title {
@@ -4071,7 +4080,9 @@ body.faq .faq-content .fc-item-title a:hover {
 }
 
 body.faq .faq-content .fc-item-nb {
-   background-color: #2B8D9F;
+   background-color: #6900FF;
+   border-radius: 17px;
+   padding: 10px;
 }
 
 body.faq .faq-content .icon-minus,
@@ -4091,8 +4102,8 @@ body.faq .faq-main-title {
    margin: 0;
    text-transform: none;
    text-align: center;
-   color: white;
-   padding: 23rem 0 5rem 0;
+color: #090909;
+padding: 23rem 0 5rem 0;
 }
 
 body.faq .faq-main-title::after {
@@ -4114,7 +4125,7 @@ body.faq .faq-summary {
 }
 
 .front .list-articles:not(.insiders-advantages) {
-   background: #090909 !important;
+   background: #6900FF !important;
 }
 
 .front .list-articles .inside .cxp-pagination .la-list .la-item .cx-lazy-load {
@@ -4405,7 +4416,7 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 }
 
 .front .insiders-enrollment-wrap {
-   background-color: #E3E2E9;
+   background-color: #E7F0F7;
    padding: 0 0 14.5rem;
 }
 
@@ -4486,7 +4497,7 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 /*   background-image: url("gfx/bg-header.jpg");*/
    background-position: center;
    background-size: cover;
-   padding: 11rem 0 10rem 0;
+   padding: 0 0 10rem 0;
 }
 
 @media screen and (max-width: 768px) {
@@ -5106,8 +5117,8 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 }
 
 .front .become-partners .lien1 {
-   background: #2B8D9F;
-   border: 2px solid #2B8D9F;
+   background: #6900FF;
+   border: 2px solid #6900FF;
 }
 
 @media screen and (max-width: 1024px) {
@@ -5266,8 +5277,8 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 }
 
 .front .agenda a.externe.lien2 {
-   background: #2B8D9F;
-   border: 2px solid #2B8D9F;
+   background: #6900FF;
+   border: 2px solid #6900FF;
    padding: 1.8rem 2.8rem;
 }
 
@@ -5999,7 +6010,7 @@ body.error404 .intro li:last-child a:hover {
 }
 
 .gsf-submit-btn {
-   background-color: #2B8D9F;
+   background-color: #6900FF;
    min-height: 5.5rem;
 }
 
@@ -6051,7 +6062,7 @@ body.search .box-light::before {
 }
 
 body.search .box-light .sr-term {
-   color: #2B8D9F;
+   color: #6900FF;
 }
 
 body.search .box-light .sr-main-title {
@@ -6550,9 +6561,15 @@ Increase width in order to cover background buttons on mobile
 
 
 
-.lien3 {
+.lien3 { background-image: linear-gradient( to right, #6900FF 50%, #DCC5FF 50%)!important; color: #6900FF!important; }
 
-	background-image: linear-gradient( to right, #0C3F05 50%, #105407 50%)!important; color: #fff!important; }
+.lien4 { background-image: linear-gradient( to right, #6900FF 50%, transparent 50%) !important;
+    color: #6900FF !important;
+    box-shadow: inset 0px 0px 0px 1px #6900FF;
+    border: none;
+    background-color: transparent!important;
+/*	padding: 13px 20px;*/
+}
 
 
 
@@ -6573,13 +6590,13 @@ Increase width in order to cover background buttons on mobile
 
 
 
-.lien4 { background-image: linear-gradient( to right, #105407 50%, transparent 50%) !important;
+/*.lien4 { background-image: linear-gradient( to right, #105407 50%, transparent 50%) !important;
     color: #105407 !important;
     box-shadow: inset 0px 0px 0px 1px #105407;
     border: none;
     background-color: transparent!important;
-/*	padding: 13px 20px;*/
-}
+/*	padding: 13px 20px;*!/
+}*/
 
 .lien4:hover {
     color: #fff !important
@@ -6785,3 +6802,7 @@ text-transform: uppercase;	}
 
 .mn-link.mn-link:hover,.mn-link.mn-link:focus,.mn-link.mn-link.is-active,.is-open .mn-link.mn-link{background:none; color: #0B653A!important;}
 
+
+
+
+.article-content hr { margin: 2em 0; background: none; }
