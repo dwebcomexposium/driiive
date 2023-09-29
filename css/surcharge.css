@@ -368,7 +368,7 @@ li {
 .article-content blockquote p:first-child::before {
    content: url("gfx/icon-quote.svg");
    display: block;
-   opacity: 0.2;
+   opacity: 1;
    margin-bottom: 1rem;
 }
 
@@ -4416,7 +4416,7 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
 }
 
 .front .insiders-enrollment-wrap {
-   background-color: #E7F0F7;
+   background-color: #DCC5FF;
    padding: 0 0 14.5rem;
 }
 
@@ -6561,7 +6561,7 @@ Increase width in order to cover background buttons on mobile
 
 
 
-.lien3 { background-image: linear-gradient( to right, #6900FF 50%, #DCC5FF 50%)!important; color: #6900FF!important; }
+.lien3 { background-image: linear-gradient( to right, #4C0FA4 50%, #6900FF 50%)!important; color: #ffffff!important; }
 
 .lien4 { background-image: linear-gradient( to right, #6900FF 50%, transparent 50%) !important;
     color: #6900FF !important;
