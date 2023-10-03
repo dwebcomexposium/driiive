@@ -6824,17 +6824,7 @@ ul.style2 li {
 	margin: 0!important;
 }
 
-ul.style2:before {
-    content: '';
-    position: absolute;
-    bottom: -80px;
-    left: -550px;
-    border-radius: 50%;
-    border: 1px solid #FF80D6;
-    width: 480px;
-    height: 480px;
-    background: #FF80D6
-}
+
 
 ul.style2 li {
     line-height: 1.7!important;
