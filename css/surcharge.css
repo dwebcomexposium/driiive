@@ -4222,14 +4222,14 @@ box-shadow: 0px 0px 50px 0px rgba(14, 14, 216, 0.20);
    }
 }
 
-.front .insiders-intro-wrap .insiders-intro a.lien3 {
+/*.front .insiders-intro-wrap .insiders-intro a.lien3 {
    display: -webkit-box;
    display: -ms-flexbox;
    display: flex;
    -webkit-box-align: center;
        -ms-flex-align: center;
            align-items: center;
-}
+}*/
 
 .front .insiders-intro-wrap .insiders-intro img {
    position: absolute;
@@ -6846,3 +6846,9 @@ ul.style2 li a {
 
 .article-content hr { margin: 2em 0; background: none; }
 .article-navigation {display: none; }
+
+figure.center {
+    text-align: center;
+    width: 120%!important;
+    margin-left: -10%;
+}
